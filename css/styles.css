@@ -2,7 +2,7 @@
 body {
 	padding: 0;
 	margin: 0;
-	background: #8493BF;
+	background: #6EA0b8;
 }
 
 .heart {
@@ -10,12 +10,99 @@ body {
 	
 }
 
+p.comfortSeason {
+	font-size: 7rem;
+}
+
+footer.page-footer {
+    color: black;
+}
+
+.colorPaletteText h1 {
+color: white;
+text-align: center;
+width: 100%;
+	font-size: 3.5rem;
+}
+
+.container-palette {
+	padding: 200px;
+	background: #6EA0B8;
+}
+
+.missionText h1 {
+	text-align: center;
+	color: white;
+	font-size: 3.5rem;
+}
+
+a.nav-link {
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+}
+
+.missionText p {
+	text-align: center;
+	font-size: 2rem;
+	margin-top: 25px;
+}
+
+.container-mission {
+	padding: 200px;
+	background: #669691;
+}
+
+
+
+.colorPaletteText p {
+	text-align: center;
+	width: 100%;
+	font-size: 2rem;
+}
+
+img.colorPalette {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+	width: 1200px;
+	margin-top: 25px;
+}
+
+.picture1 {
+	width: 1000px;
+	border: 2px solid black;
+    border-radius: 10px;
+	
+}
+
+footer.page-footer {
+	font-size: 1.5rem;
+}
+
+.headerFooter h6 {
+	font-size: 1.5rem;
+	color: black;
+}
+
+.headerFooterContact h6 {
+	font-size: 1.5rem;
+	color: black;
+}
+
 a.nav-link {
     font-size: 28px;
 }
 
+
+p.comfortSeason {
+	font-size: 50px;
+	color: red;
+}
+
 a.nav-link:hover {
-	  opacity: 0.6;
+  opacity: 0.6;
   transition: 0.3s;
 }
 
@@ -55,10 +142,13 @@ a.nav-link:hover {
 
 
 .header {
-	background-image: url('../images/header-background.jpg');
 	background-size: cover;
 	background-position: center;
 	position: relative;
+}
+
+.mr-auto, .mx-auto {
+    margin: 0 auto;
 }
 
 .overlay {
@@ -67,15 +157,25 @@ a.nav-link:hover {
 	min-width: 100%;
 	left: 0;
 	top: 0;
-	background: rgba(0, 0, 0, 0.6);
+	background: #9F9E9E;
+}
+
+img.shoppingcart {
+	width: 100px;
 }
 
 button.btn.btn-outline-secondary.btn-lg {
     padding: 5px 10px;
 }
 
+.topText {
+	color: #E3B1B1;
+	text-align: center;
+}
+
+
 .description {
-	left: 50%;
+	left: 45%;
 	position: absolute;
 	top: 45%;
 	transform: translate(-50%, -55%);
@@ -86,10 +186,34 @@ button.btn.btn-outline-secondary.btn-lg {
 	color: #8493BF;
 }
 
+img.Posby {
+	height: 100px;
+}
+
+a.nav-link {
+    border: 2px solid grey;
+    background: white;
+    padding: 1px;
+	margin: 20px;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+    padding: 0;
+}
+
+li.nav-item {
+    list-style: none;
+    margin: 0;
+    font-size: 2em;
+    display: inline-block;
+    vertical-align: middle;
+}
+
 .description p {
 	color: #fff;
-	font-size: 1.3rem;
+	font-size: 8rem;
 	line-height: 1.5;
+	margin-right: 100px;
 }
 
 .description button {
@@ -105,12 +229,22 @@ button.btn.btn-outline-secondary.btn-lg {
 	color: #000;
 }
 
+.topText {
+    font-size: 90px;
+}
+
 /*--- feature section ---*/
 
 .features {
 	margin: 4em auto;
 	padding: 1em;
 	position: relative;
+}
+
+.featuresTop {
+    padding: 1em;
+    position: relative;
+    margin-bottom: 1em;
 }
 
 .feature-title {
@@ -181,7 +315,7 @@ button.btn.btn-outline-secondary.btn-lg {
 /*--- footer ---*/
 
 .page-footer {
-	background-color: #222;
+	background-color: #e3b1b2;
 	color: #ccc;
 	padding: 60px 0 30px;
 }
@@ -208,6 +342,12 @@ button.btn.btn-outline-secondary.btn-lg {
     margin: 0 0 25px;
     font-weight: bold;
     text-transform: capitalize;
+}
+
+img.shoppingcart {
+    width: 100px;
+    position: relative;
+    left: 100px;
 }
 
 #demo-modal .close {
@@ -255,10 +395,191 @@ button.btn.btn-outline-secondary.btn-lg {
 
 /*--- media queries ---*/
 
+@media (max-width: 2200px) {
+
+	img.picture1 {
+		width: 600px;
+	}
+	.description p {
+		font-size: 6rem;
+		margin-right: 0;
+	}
+	
+		.container-fluid {
+    height: 1400px !important;
+}
+	
+}
+
+@media (max-width: 1700px) {
+
+	img.colorPalette {
+		width: 800px;
+	}
+	
+}
+
+@media (max-width: 1500px) {
+
+	img.colorPalette {
+		width: 600px;
+	}
+	
+}
+
+@media (max-width: 2000px) {
+
+	img.picture1 {
+		width: 500px;
+	}
+	.description p {
+		font-size: 5rem;
+		margin-right: 0;
+	}
+	
+	ul.navbar-nav.mr-auto {
+    margin: 0;
+}
+	
+	img.shoppingcart {
+    width: 100px;
+    position: relative;
+    left: 25px;
+}
+	
+	a.nav-link {
+    margin-left: 0;
+	margin-right: 0;
+}
+	
+	li.nav-item {
+    width: 120px;
+}
+	
+		.container-fluid {
+    height: 1100px !important;
+}
+	
+	a.nav-link {
+		border: 0;
+	}
+	
+}
+
+@media (max-width: 1200px) {
+img.shoppingcart {
+	width: 100px;
+    position: relative;
+    bottom: 0px;
+    left: -50px;
+}
+	
+	
+		.container-fluid {
+    height: 1000px !important;
+}
+	
+	li.nav-item {
+     width: 107px;
+    position: relative;
+    float: left;
+    left: -60px;
+	}
+}
+
+
 @media (max-width: 991.98px) {
 
 	.team {
 		padding: 0 15px;
+	}
+	
+	
+	
+	img.colorPalette {
+	width: 500px;
+}
+	
+	img.picture1 {
+	width: 450px;
+    position: absolute;
+    display: block;
+    bottom: -350px;
+    margin-left: auto;
+    margin-right: auto;
+    left: -150px;
+}
+	
+	button.navbar-toggler {
+    position: relative;
+    left: -50px;
+}
+	
+		.container-fluid {
+    height: 1000px !important;
+}
+
+	
+	img.shoppingcart {
+  	width: 100px;
+    position: relative;
+    bottom: 0px;
+    left: 0;
+    margin: 0 auto;
+}
+	
+	li.nav-item {
+    width: 100%;
+		left: 10px;
+    text-align: center;
+}
+	
+	img.Posby {
+		opacity: 100%;
+	}
+	
+	p.comfortSeason {
+    text-align: center;
+    width: max-content;
+    margin-left: 75px;
+    margin-bottom: 50px;
+}
+	
+}
+
+@media (max-width: 768px) {
+
+	.description p {
+		font-size: 4rem;
+		margin-right: 0;
+	}
+	.picture1 {
+    /* width: 700px; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding: 0;
+}
+	
+	img.picture1 {
+	left: 150px !important;
+}
+	
+	img.colorPalette {
+	width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+}
+	
+		.container-fluid {
+    height: 1000px !important;
+}
+	
+	img.Posby {
+		opacity: 100%;
 	}
 	
 }
@@ -274,13 +595,46 @@ button.btn.btn-outline-secondary.btn-lg {
 		text-align: center;
 	}
 	
+	.headerFooter h6 {
+		font-size: 2rem;
+	}
+	
+	footer.page-footer {
+    font-size: 2rem;
+}
+	
+	img.Posby {
+		opacity: 100%;
+	}
+	
+	img.picture1 {
+		width: 90%;
+		margin-top: 25px;
+		left: 75px !important;
+	}
+	
 	.description h1 {
 		font-size: 2em;
 	}
 	
+	p.comfortSeason {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    left: 50px;
+}
+	.container-fluid {
+    height: 1000px !important;
+}
+	
 	.description p {
-		font-size: 1.2rem;
+		font-size: 3rem;
+		margin-left: 0;
 	}
+	
+	footer.page-footer {
+    text-align: center;
+}
 	
 	.features {
 		margin: 0;
