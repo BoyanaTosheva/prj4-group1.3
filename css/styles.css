@@ -10,6 +10,10 @@ body {
 	
 }
 
+a.nav-link {
+    background: none;
+}
+
 p.comfortSeason {
 	font-size: 7rem;
 }
