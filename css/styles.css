@@ -454,6 +454,7 @@ img.shoppingcart {
 	a.nav-link {
     margin-left: 0;
 	margin-right: 0;
+	background: none;
 }
 	
 	li.nav-item {
