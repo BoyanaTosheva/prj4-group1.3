@@ -37,6 +37,14 @@ footer.page-footer {
 	color: black;
 }
 
+.navbar-expand-lg .navbar-collapse {
+    background: white;
+}
+
+ul.navbar-nav.mr-auto {
+    background: white;
+}
+
 .container.comfort {
 	padding: 200px;
 }
