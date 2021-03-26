@@ -33,6 +33,10 @@ p.comfortSeason {
     background: #6EA0b8;
 }
 
+footer.page-footer {
+	color: black;
+}
+
 .container.comfort {
 	padding: 200px;
 }
