@@ -15,11 +15,25 @@ a.nav-link {
 }
 
 p.comfortSeason {
-	font-size: 7rem;
+    font-size: 8rem;
+    color: white;
+    float: left;
+    left: -400px;
+    position: absolute;
+    text-align: center;
+}
+
+.container comfort {
+    padding: 100px;
+    background: #6EA0b8;
 }
 
 footer.page-footer {
     color: black;
+}
+
+.container.comfort {
+	padding: 200px;
 }
 
 .colorPaletteText h1 {
@@ -31,7 +45,7 @@ width: 100%;
 
 .container-palette {
 	padding: 200px;
-	background: #6EA0B8;
+	background: #9f9d9e;
 }
 
 .missionText h1 {
@@ -75,9 +89,10 @@ img.colorPalette {
 }
 
 .picture1 {
-	width: 1000px;
+	width: 700px;
 	border: 2px solid black;
     border-radius: 10px;
+	margin-left: 50px;
 	
 }
 
@@ -97,12 +112,6 @@ footer.page-footer {
 
 a.nav-link {
     font-size: 28px;
-}
-
-
-p.comfortSeason {
-	font-size: 50px;
-	color: red;
 }
 
 a.nav-link:hover {
@@ -399,6 +408,7 @@ img.shoppingcart {
 
 /*--- media queries ---*/
 
+
 @media (max-width: 2200px) {
 
 	img.picture1 {
@@ -415,11 +425,23 @@ img.shoppingcart {
 	
 }
 
+@media (max-width: 1100px) {
+	li.nav-item {
+    width: 100px !important;
+
+}
+
+}
+
+
+
 @media (max-width: 1700px) {
 
 	img.colorPalette {
 		width: 800px;
 	}
+li.nav-item {
+    width: 150px;
 	
 }
 
@@ -442,7 +464,7 @@ img.shoppingcart {
 	}
 	
 	ul.navbar-nav.mr-auto {
-    margin: 0;
+
 }
 	
 	img.shoppingcart {
@@ -479,6 +501,10 @@ img.shoppingcart {
     left: -25px;
 }
 	
+	img.picture1 {
+		width: 400px;
+	}
+	
 	
 		.container-fluid {
     height: 1000px !important;
@@ -494,13 +520,16 @@ img.shoppingcart {
 
 
 @media (max-width: 991.98px) {
-
-	.team {
-		padding: 0 15px;
+	
+.container-palette {
+    padding: 50px;
+}
+	
+	.container-mission {
+		padding: 50px;
 	}
 	
-	
-	
+
 	img.colorPalette {
 	width: 500px;
 }
@@ -512,7 +541,7 @@ img.shoppingcart {
     bottom: -350px;
     margin-left: auto;
     margin-right: auto;
-    left: -150px;
+    left: -200px;
 }
 	
 	button.navbar-toggler {
@@ -520,7 +549,7 @@ img.shoppingcart {
     left: -50px;
 }
 	
-		.container-fluid {
+	.container-fluid {
     height: 1000px !important;
 }
 
@@ -545,21 +574,39 @@ img.shoppingcart {
 	
 	p.comfortSeason {
     text-align: center;
-    width: max-content;
-    margin-left: 75px;
     margin-bottom: 50px;
+    font-size: 4rem;
+    position: relative;
+    left: 210px !important;
+    width: 100%;
+    float: right;
+}
+	
+	.container.comfort {
+    padding: 100px 0px 400px 0px;
 }
 	
 }
+	
+@media (max-width: 1500px) {
+	p.comfortSeason {
+		font-size: 6rem;
+	}
+
+}
+	
 
 @media (max-width: 768px) {
+	
+	footer.page-footer {
+    text-align: center;
+	}
 
 	.description p {
 		font-size: 4rem;
 		margin-right: 0;
 	}
 	.picture1 {
-    /* width: 700px; */
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -568,7 +615,7 @@ img.shoppingcart {
 }
 	
 	img.picture1 {
-	left: 150px !important;
+	left: 60px;
 }
 	
 	img.colorPalette {
@@ -579,7 +626,7 @@ img.shoppingcart {
     position: absolute;
 }
 	
-		.container-fluid {
+	.container-fluid {
     height: 1000px !important;
 }
 	
@@ -587,7 +634,43 @@ img.shoppingcart {
 		opacity: 100%;
 	}
 	
+	p.comfortSeason {
+		left: 0px !important;
+	}
+	
 }
+	
+	@media screen and (max-width: 769px) and (min-width: 768px) {
+  img.picture1 {
+   left: -210px !important;
+  }
+	
+	p.comfortSeason {
+		left: 200px !important;
+	}
+}
+	
+	@media (max-width: 1300px) {
+		
+		p.comfortSeason {
+			left: -150px;
+			
+		}
+		
+	}
+	
+	@media (max-width: 400px) {
+		img.picture1 {
+			width: 350px !important;
+		}
+		
+		p.comfortSeason {
+    margin-bottom: 0 !important;
+    font-size: 5rem;
+}
+
+	}
+	
 
 @media (max-width: 575.98px) {
 
@@ -613,21 +696,26 @@ img.shoppingcart {
 	}
 	
 	img.picture1 {
-		width: 90%;
-		margin-top: 25px;
-		left: 75px !important;
+    width: 400px;
+    left: 0;
+    right: 0;
 	}
 	
 	.description h1 {
 		font-size: 2em;
 	}
 	
-	p.comfortSeason {
-    width: 100%;
-    text-align: center;
-    position: relative;
-    left: 50px;
+	.container.comfort {
+    padding: 50px 0px 400px 0px;
+	width: 90%;
 }
+	
+	p.comfortSeason {
+		margin-bottom: 25px;
+		font-size: 5rem;
+ 
+	}
+	
 	.container-fluid {
     height: 1000px !important;
 }
@@ -653,4 +741,5 @@ img.shoppingcart {
 		min-width: auto;
 	}
 
+	}
 }
