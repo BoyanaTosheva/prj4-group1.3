@@ -788,3 +788,14 @@ img.shoppingcart {
 	font-family: 'Staatliches', cursive;
 	text-align: center;
 }
+
+.persons{
+	background-color: #669691;
+    margin-top: 11px;
+    text-align: center;
+	color: white;
+}
+
+.persons:hover{
+	background-color:#E3B1B1;
+}
