@@ -19,7 +19,7 @@ a.nav-link {
 }
 
 .container-about {
-	padding: 200px;
+	padding: 100px;
 	background: #9f9d9e;
 }
 
@@ -220,7 +220,7 @@ button.btn.btn-outline-secondary.btn-lg {
 }
 
 img.Posby {
-	height: 100px;
+	height: 50px;
 }
 
 a.nav-link {
@@ -762,8 +762,29 @@ img.shoppingcart {
 }
 
 .headje{
-    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    font-family: 'Staatliches', cursive;
     text-align: left;
     padding-top: 61px;
-    font-size: larger;
+	padding-bottom: 61px;
+    color: white;
+}
+
+#fontjegroot{
+	font-size: 100px;
+	
+}
+
+.paragrahpho{
+	padding-top: 61px;
+	padding-bottom: 61px;
+	font-size: 30px;
+	color: white;
+	
+}
+
+.who{
+	color: white;
+	font-size: 100px;
+	font-family: 'Staatliches', cursive;
+	text-align: center;
 }
