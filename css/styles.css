@@ -815,7 +815,8 @@ img.shoppingcart {
 	font-size: 100px;
 	font-family: 'Staatliches', cursive;
 	text-align: center;
-	padding-top: 10px;
+	padding-top: 100px;
+	
 }
 
 .values{
@@ -829,5 +830,14 @@ img.shoppingcart {
 
 #paragraphvalues{
     text-align: center;
-
 }
+#paragraphvalues1{
+    text-align: center;
+}
+#paragraphvalues2{
+    text-align: center;
+}
+#paragraphvalues3{
+    text-align: center;
+}
+
