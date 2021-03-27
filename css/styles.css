@@ -1,3 +1,4 @@
+@charset "utf-8";
 
 body {
 	padding: 0;
@@ -755,4 +756,11 @@ img.shoppingcart {
 	}
 
 	}
+}
+
+.headje{
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    text-align: left;
+    padding-top: 61px;
+    font-size: larger;
 }
