@@ -9,6 +9,11 @@ body {
     background-image: linear-gradient(180deg,rgba(110,160,184,1.00) 0%,rgba(126,155,196,1.00) 100%);    
 }
 
+.firstcontainer{
+	background-color: #e3b1b1;
+}
+
+
 .heart {
 	width: 75px;
 	
@@ -44,7 +49,9 @@ footer.page-footer {
 
 .navbar-expand-lg .navbar-collapse {
     background: white;
+
 }
+
 
 ul.navbar-nav.mr-auto {
     background: white;
@@ -770,8 +777,7 @@ img.shoppingcart {
 }
 
 #fontjegroot{
-	font-size: 100px;
-	
+	font-size: 100px;	
 }
 
 .paragrahpho{
@@ -798,4 +804,30 @@ img.shoppingcart {
 
 .persons:hover{
 	background-color:#E3B1B1;
+}
+
+.containervalues{
+    background-color: #669691;
+}
+
+#ourvalues{
+	color: white;
+	font-size: 100px;
+	font-family: 'Staatliches', cursive;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.values{
+	color; White;
+    font-family: 'Staatliches', cursive;
+    font-size: 40px;
+    text-align: center;
+
+    
+}
+
+#paragraphvalues{
+    text-align: center;
+
 }
