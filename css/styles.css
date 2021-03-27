@@ -808,6 +808,7 @@ img.shoppingcart {
 
 .containervalues{
     background-color: #669691;
+    padding-bottom: 68px;	
 }
 
 #ourvalues{
@@ -824,6 +825,7 @@ img.shoppingcart {
     font-family: 'Staatliches', cursive;
     font-size: 40px;
     text-align: center;
+    margin-top: 20px;	
 
     
 }
