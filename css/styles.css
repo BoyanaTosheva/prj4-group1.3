@@ -95,8 +95,9 @@ a.nav-link {
 }
 
 .container-mission {
-	padding: 200px;
-	background: #669691;
+    padding: 200px;
+    background: #669691;
+    border-bottom: 2px solid #000000;
 }
 
 
@@ -871,4 +872,17 @@ img.shoppingcart {
     font-style: italic;
 }
 
+.gotoshop{
+    background-color: #6EA0B8;
+    border-top: 2px solid #000000;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
 
+#gotoproducts{
+    font-family: 'Staatliches', cursive;
+    color: #000000;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 30px;
+}
