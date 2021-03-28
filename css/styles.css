@@ -94,6 +94,7 @@ a.nav-link {
 	margin-top: 25px;
 }
 
+
 .container-mission {
     padding: 200px;
     background: #669691;
@@ -883,6 +884,10 @@ img.shoppingcart {
     font-family: 'Staatliches', cursive;
     color: #000000;
     font-size: 40px;
-    text-align: center;
     padding-top: 30px;
+    text-align: center;	
+}
+
+#gotoproducts:hover{
+	color:white;
 }
