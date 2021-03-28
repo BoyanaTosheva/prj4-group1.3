@@ -863,7 +863,12 @@ img.shoppingcart {
 #headervision{
 		font-family: 'Staatliches', cursive;
     	color: white;
+		font-size:100px;
 }
 
+#visionparagraph{
+    font-size: 31px;
+    font-style: italic;
+}
 
 
