@@ -835,7 +835,8 @@ img.shoppingcart {
     font-family: 'Staatliches', cursive;
     font-size: 60px;
     text-align: center;
-    margin-top: 20px;	
+    margin-top: 20px;
+    text-decoration: underline;	
 
     
 }
@@ -896,10 +897,3 @@ img.shoppingcart {
     border-radius: 123px;
 }
 
-.valuephotos{
-    width: 154px;
-    padding-bottom: 0px;
-    margin-bottom: -84px;
-    border-radius: 105px;
-    margin-left: 30px;
-}
