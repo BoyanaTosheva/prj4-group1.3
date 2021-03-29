@@ -1,18 +1,20 @@
 @charset "utf-8";
 
-body {
+html, body {
     padding: 0;
     margin: 0;
+	width: 100%;
 	overflow-x: hidden;
 	background: rgb(60,87,100);
-background: linear-gradient(110deg, rgba(60,87,100,1) 1%, rgba(110,160,184,1) 47%, rgba(60,87,100,1) 99%);   
+    background: linear-gradient(110deg, rgba(60,87,100,1) 1%, rgba(110,160,184,1) 47%, rgba(60,87,100,1) 99%);   
 }
 
 .firstcontainer{
     background-color: #e3b1b1;
-	padding: 25px;
+	padding: 50px;
 	border-bottom: 2px solid #000000;
 }
+
 
 
 .heart {
@@ -93,7 +95,6 @@ a.nav-link {
 .missionText p {
 	text-align: center;
 	font-size: 2rem;
-	margin-top: 25px;
 }
 
 
@@ -461,10 +462,9 @@ img.shoppingcart {
 	li.nav-item {
     width: 100px !important;
 
-}
+	}
 
 }
-
 
 
 @media (max-width: 1700px) {
@@ -629,12 +629,50 @@ img.shoppingcart {
 
 }
 	
+@media (max-width: 991px) {
+	#fontjegroot {
+		    font-size: 80px !important;
+		}
+	}
+	
 
 @media (max-width: 768px) {
+	
+	#fontjegroot {
+		text-align: center;
+	}
+	
+	.persons {
+    margin: 25px !important;
+}
+	
+	.headje {
+		padding: 0 !important;
+	}
+	
+	.paragrahpho p {
+    text-align: center;
+}
 	
 	footer.page-footer {
     text-align: center;
 	}
+	
+	#whowe1, #whowe2, #whowe3, #whowe4 {
+		display: block;
+		width: 60%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	.valuephotos {
+	float: none !important;
+    margin: 0 auto;
+    position: relative;
+    display: block;
+    margin-left: auto !important;
+    margin-right: auto;
+}
 
 	.description p {
 		font-size: 4rem;
@@ -671,7 +709,7 @@ img.shoppingcart {
 	p.comfortSeason {
 		left: 0px !important;
 	}
-	
+		
 }
 	
 	@media screen and (max-width: 769px) and (min-width: 768px) {
@@ -719,6 +757,10 @@ img.shoppingcart {
 	}
 	
 @media (max-width: 575.98px) {
+	
+	p.paragraphvalues {
+    left: 0 !important;
+}
 
 	.description {
 		left: 0;
@@ -819,6 +861,7 @@ img.shoppingcart {
 
 .who{
 	color: white;
+	margin-bottom: 50px;
 	font-size: 100px;
 	font-family: 'Staatliches', cursive;
 	text-align: center;
@@ -841,15 +884,17 @@ img.shoppingcart {
 }
 
 #ourvalues{
-    color: white;
+     color: white;
     font-size: 100px;
     font-family: 'Staatliches', cursive;
     text-align: center;
-    padding-top: 100px;
+    padding-top: 50px;
+    margin-bottom: 50px;
 }
 
 .values{
     color: white;
+	text-align: center;
     font-family: 'Staatliches', cursive;
     font-size: 60px;
     margin-top: 20px;
@@ -857,17 +902,11 @@ img.shoppingcart {
 
 }
 
-#paragraphvalues{
-
-}
-#paragraphvalues1{
-    	margin-left: 20px;
-}
-#paragraphvalues2{
-    	margin-left: 20px;
-}
-#paragraphvalues3{
-    margin-left: 20px;
+p.paragraphvalues {
+    	text-align: center;
+    	position: relative;
+		left: 10px;
+		font-size: 24px;
 }
 
 .comfortSeason:hover{
@@ -949,5 +988,5 @@ img.review1  {
     height: 200px;
     float: left;
     margin-left: 20px;	
-	border-radius: 123px;
+	border-radius: 50%
 }
