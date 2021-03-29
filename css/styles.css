@@ -616,7 +616,7 @@ img.shoppingcart {
 }
 	
 	.container.comfort {
-    padding: 100px 0px 400px 0px;
+    padding: 0px 0px 400px 0px;
 }
 	
 }
@@ -624,6 +624,7 @@ img.shoppingcart {
 @media (max-width: 1500px) {
 	p.comfortSeason {
 		font-size: 6rem;
+		left: -150px;
 	}
 
 }
@@ -648,7 +649,7 @@ img.shoppingcart {
 }
 	
 	img.picture1 {
-	left: 60px;
+	left: 110px;
 }
 	
 	img.colorPalette {
@@ -694,14 +695,27 @@ img.shoppingcart {
 	
 	@media (max-width: 400px) {
 		img.picture1 {
-			width: 350px !important;
+			width: 250px !important;
+			margin-top: 50px;
 		}
+		
+		.container.comfort {
+    padding: 25px 0px 350px 0px !important;
+	}
 		
 		p.comfortSeason {
     margin-bottom: 0 !important;
     font-size: 5rem;
-}
+		}
+	}
+	
+		
+	@media (max-width: 500px) {
+	
+		.topText p {
 
+			font-size: 120px;
+		}
 	}
 	
 
@@ -730,8 +744,9 @@ img.shoppingcart {
 	}
 	
 	img.picture1 {
-    width: 400px;
+    width: 300px;
     left: 0;
+	top: -20px;
     right: 0;
 	}
 	
@@ -740,7 +755,7 @@ img.shoppingcart {
 	}
 	
 	.container.comfort {
-    padding: 50px 0px 400px 0px;
+    padding: 25px 0px 425px 0px;
 	width: 90%;
 }
 	
