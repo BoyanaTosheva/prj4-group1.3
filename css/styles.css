@@ -822,18 +822,18 @@ img.shoppingcart {
 }
 
 #ourvalues{
-	color: white;
-	font-size: 100px;
-	font-family: 'Staatliches', cursive;
-	text-align: center;
-	padding-top: 100px;
-	
+    color: white;
+    font-size: 100px;
+    font-family: 'Staatliches', cursive;
+    text-align: center;
+    padding-top: 100px;
+    margin-bottom: 52px;
 }
 
 .values{
 	color; White;
     font-family: 'Staatliches', cursive;
-    font-size: 40px;
+    font-size: 60px;
     text-align: center;
     margin-top: 20px;	
 
@@ -894,4 +894,12 @@ img.shoppingcart {
 
 #whowe{
     border-radius: 123px;
+}
+
+.valuephotos{
+    width: 154px;
+    padding-bottom: 0px;
+    margin-bottom: -84px;
+    border-radius: 105px;
+    align-content: center;
 }
