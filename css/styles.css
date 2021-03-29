@@ -67,11 +67,12 @@ ul.navbar-nav.mr-auto {
 color: white;
 text-align: center;
 width: 100%;
-	font-size: 3.5rem;
+margin-bottom: 35px;
+font-size: 3.5rem;
 }
 
 .container-palette {
-	padding: 50px;
+	padding: 75px;
 	background: #9f9d9e;
 }
 
@@ -96,7 +97,7 @@ a.nav-link {
 
 
 .container-mission {
-    padding: 50px;
+    padding: 75px;
     background: #669691;
     border-bottom: 2px solid #000000;
 }
