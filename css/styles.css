@@ -10,6 +10,7 @@ background: linear-gradient(110deg, rgba(60,87,100,1) 1%, rgba(110,160,184,1) 47
 
 .firstcontainer{
     background-color: #e3b1b1;
+	padding: 25px;
 	border-bottom: 2px solid #000000;
 }
 
