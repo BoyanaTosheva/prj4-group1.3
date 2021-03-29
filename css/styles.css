@@ -642,6 +642,10 @@ img.shoppingcart {
 		text-align: center;
 	}
 	
+	#image1, #image2, #image3, #image4 {
+		margin-bottom: 25px;
+	}
+	
 	.persons {
     margin: 25px !important;
 }
@@ -989,4 +993,35 @@ img.review1  {
     float: left;
     margin-left: 20px;	
 	border-radius: 50%
+}
+
+#image1 {
+	width: 200px;
+}
+
+#image2 {
+	width: 200px;
+}
+
+#image3 {
+	width: 200px;
+}
+
+.containerImages {
+    padding: 50px;
+    background: #669691;
+	border-bottom: 2px solid black;
+}
+
+.containerImages h1 {
+    text-align: center;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.containerImages p {
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+    font-size: 24px;
 }
