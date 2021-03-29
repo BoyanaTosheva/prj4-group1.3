@@ -572,6 +572,7 @@ img.shoppingcart {
     left: -200px;
 }
 	
+
 	button.navbar-toggler {
     position: relative;
     left: -50px;
@@ -822,20 +823,35 @@ img.shoppingcart {
 }
 
 #ourvalues{
+<<<<<<< Updated upstream
     color: white;
     font-size: 100px;
     font-family: 'Staatliches', cursive;
     text-align: center;
     padding-top: 100px;
+=======
+	color: white;
+	font-size: 100px;
+	font-family: 'Staatliches', cursive;
+	text-align: center;
+	padding-top: 100px;
+	
+>>>>>>> Stashed changes
 }
 
 .values{
 	color; White;
     font-family: 'Staatliches', cursive;
+<<<<<<< Updated upstream
     font-size: 60px;
     text-align: center;
     margin-top: 20px;
     text-decoration: underline;	
+=======
+    font-size: 40px;
+    text-align: center;
+    margin-top: 20px;	
+>>>>>>> Stashed changes
 
     
 }
@@ -892,7 +908,20 @@ img.shoppingcart {
 	color:white;
 }
 
+<<<<<<< Updated upstream
 #whowe{
     border-radius: 123px;
 }
 
+=======
+/* Contact */
+
+form#contact-form {
+    width: 50%;
+    left: 0;
+    padding: 75px;
+    right: 0;
+    position: relative;
+	margin: 0 auto;
+}
+>>>>>>> Stashed changes
