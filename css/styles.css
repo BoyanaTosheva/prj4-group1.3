@@ -567,13 +567,13 @@ img.shoppingcart {
 }
 	
 	img.picture1 {
-	width: 450px;
+    width: 350px;
     position: absolute;
     display: block;
     bottom: -350px;
     margin-left: auto;
     margin-right: auto;
-    left: -200px;
+    left: -150px;
 }
 	
 
@@ -906,4 +906,29 @@ form#contact-form {
     right: 0;
     position: relative;
 	margin: 0 auto;
+}
+
+/* Carousel */
+
+.Test1 {
+	padding: 25px 25px 50px 25px;
+	color: white;
+	text-align: center;
+}
+
+.Test1 p{
+	text-align: center;
+	color: white;
+	font-size: 28px;
+	margin-top: 10px;
+}
+
+img.review1  {
+	width: 300px;
+	border: 2px solid black;
+	border-radius: 50%;
+}
+
+.Test1 h1 {
+	margin-bottom: 25px;
 }
