@@ -718,7 +718,6 @@ img.shoppingcart {
 		}
 	}
 	
-
 @media (max-width: 575.98px) {
 
 	.description {
@@ -923,9 +922,7 @@ form#contact-form {
 	margin: 0 auto;
 }
 
-<<<<<<< HEAD
 /* Carousel */
-
 .Test1 {
 	padding: 25px 25px 50px 25px;
 	color: white;
@@ -947,12 +944,11 @@ img.review1  {
 
 .Test1 h1 {
 	margin-bottom: 25px;
-=======
+}
 .valuephotos{
     width: 200px;
     height: 200px;
     float: left;
     margin-left: 20px;	
 	border-radius: 123px;
->>>>>>> afe8c76e08b132b93cb8376d57686c48b5730078
 }
