@@ -84,8 +84,8 @@ width: 100%;
 a.nav-link {
     padding-left: 25px !important;
     padding-right: 25px !important;
-    padding-top: 10px !important;
-    padding-bottom: 10px !important;
+    padding-top: 1px !important;
+    padding-bottom: 1px !important;
 }
 
 .missionText p {
@@ -139,7 +139,7 @@ footer.page-footer {
 }
 
 a.nav-link {
-    font-size: 28px;
+    font-size: 19px;
 }
 
 a.nav-link:hover {
@@ -148,7 +148,7 @@ a.nav-link:hover {
 }
 
 .navbar {
-	background: #8493bf;
+    background: #8493bf;
 }
 
 .textHome {
