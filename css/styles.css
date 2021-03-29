@@ -60,7 +60,7 @@ ul.navbar-nav.mr-auto {
 }
 
 .container.comfort {
-	padding: 150px;
+	padding: 100px;
 }
 
 .colorPaletteText h1 {
@@ -71,7 +71,7 @@ width: 100%;
 }
 
 .container-palette {
-	padding: 200px;
+	padding: 50px;
 	background: #9f9d9e;
 }
 
@@ -96,7 +96,7 @@ a.nav-link {
 
 
 .container-mission {
-    padding: 200px;
+    padding: 50px;
     background: #669691;
     border-bottom: 2px solid #000000;
 }
@@ -440,7 +440,7 @@ img.shoppingcart {
 @media (max-width: 2200px) {
 
 	img.picture1 {
-		width: 600px;
+		width: 400px;
 	}
 	.description p {
 		font-size: 6rem;
@@ -875,8 +875,6 @@ img.shoppingcart {
 .gotoshop{
     background-color: #6EA0B8;
     border-top: 2px solid #000000;
-    padding-top: 40px;
-    padding-bottom: 40px;
 }
 
 #gotoproducts{
