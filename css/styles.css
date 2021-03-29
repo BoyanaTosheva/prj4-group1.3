@@ -907,12 +907,11 @@ img.shoppingcart {
 	color:white;
 }
 
-#whowe{
-    border-radius: 123px;
+#whowe1, #whowe2, #whowe3, #whowe4 {
+    border-radius: 50%
 }
 
 /* Contact */
-
 form#contact-form {
     width: 50%;
     left: 0;
