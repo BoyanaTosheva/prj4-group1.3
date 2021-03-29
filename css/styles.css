@@ -850,25 +850,25 @@ img.shoppingcart {
 }
 
 .values{
-	color: white;
+    color: white;
     font-family: 'Staatliches', cursive;
     font-size: 60px;
-    text-align: center;
     margin-top: 20px;
-    text-decoration: underline;	
+    text-decoration: underline;
+
 }
 
 #paragraphvalues{
-    text-align: center;
+
 }
 #paragraphvalues1{
-    text-align: center;
+    	margin-left: 20px;
 }
 #paragraphvalues2{
-    text-align: center;
+    	margin-left: 20px;
 }
 #paragraphvalues3{
-    text-align: center;
+    margin-left: 20px;
 }
 
 .comfortSeason:hover{
@@ -923,6 +923,7 @@ form#contact-form {
 	margin: 0 auto;
 }
 
+<<<<<<< HEAD
 /* Carousel */
 
 .Test1 {
@@ -946,4 +947,12 @@ img.review1  {
 
 .Test1 h1 {
 	margin-bottom: 25px;
+=======
+.valuephotos{
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-left: 20px;	
+	border-radius: 123px;
+>>>>>>> afe8c76e08b132b93cb8376d57686c48b5730078
 }
