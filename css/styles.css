@@ -648,6 +648,13 @@ img.shoppingcart {
     width: 100% !important;
 }
 	
+	form#contact-form input {
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 100%;
+}
+	
 	#fontjegroot {
 		text-align: center;
 	}
