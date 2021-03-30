@@ -54,7 +54,6 @@ footer.page-footer {
 
 .navbar-expand-lg .navbar-collapse {
     background: white;
-	height: 90px;
 }
 
 
@@ -207,7 +206,6 @@ a.nav-link:hover {
 img.shoppingcart {
     width: 30px;
     height: 30px;
-    margin-top: 20px;
 }
 
 button.btn.btn-outline-secondary.btn-lg {
@@ -236,13 +234,13 @@ button.btn.btn-outline-secondary.btn-lg {
 }
 
 img.Posby {
-	height: 90px;
+	height: 80px;
 }
 
 a.nav-link {
     background: white;
     padding: 1px;
-	margin: 20px;
+	margin-top: 22px;
 }
 
 nav.navbar.navbar-expand-lg.navbar-light.bg-light {
@@ -390,9 +388,10 @@ li.nav-item {
 }
 
 img.shoppingcart {
-    width: 100px;
-    position: relative;
-    left: 100px;
+  	position: relative;
+    left: 50px;
+    width: auto;
+    height: 80px;
 }
 
 #demo-modal .close {
@@ -499,9 +498,9 @@ li.nav-item {
 }
 	
 	img.shoppingcart {
-    width: 100px;
-    position: relative;
+	position: relative;
     left: 50px;
+    height: 80px;
 }
 	
 	a.nav-link {
@@ -526,7 +525,7 @@ li.nav-item {
 
 @media (max-width: 1200px) {
 img.shoppingcart {
-	width: 100px;
+	width: 80px;
     position: relative;
     bottom: 0px;
     left: -25px;
@@ -587,7 +586,7 @@ img.shoppingcart {
 
 	
 	img.shoppingcart {
-  	width: 100px;
+  	width: 80px;
     position: relative;
     bottom: 0px;
     left: 0;
