@@ -13,9 +13,18 @@ html, body {
 	width: 50px;
 }
 
+.container-socialsContact {
+    margin-bottom: 50px;
+}
+
 .socials img {
     margin-right: 15px;
 	margin-top: 10px;
+}
+
+.textSocialContact p {
+    margin-top: 15px;
+    font-size: 18px;
 }
 
 .firstcontainer{
@@ -648,6 +657,10 @@ img.shoppingcart {
     width: 100% !important;
 }
 	
+	.textSocialContact p {
+    margin-bottom: 30px;
+}
+	
 	.socials img {
     margin-right: 0;
 }
@@ -987,7 +1000,7 @@ p.paragraphvalues {
 
 /* Contact */
 form#contact-form {
-    width: 75%;
+    width: 69%;
     left: 0;
     padding: 75px 100px 75px 100px;
     right: 0;
