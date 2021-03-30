@@ -937,10 +937,10 @@ img.shoppingcart {
 }
 
 p.paragraphvalues {
-    	text-align: center;
-    	position: relative;
-		left: 10px;
-		font-size: 24px;
+    text-align: left;
+    position: relative;
+    left: 10px;
+    font-size: 22px;
 }
 
 .comfortSeason:hover{
@@ -961,6 +961,7 @@ p.paragraphvalues {
 #visionparagraph{
     font-size: 31px;
     font-style: italic;
+	color: white;
 }
 
 .gotoshop{
