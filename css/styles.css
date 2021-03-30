@@ -9,13 +9,20 @@ html, body {
     background: linear-gradient(110deg, rgba(60,87,100,1) 1%, rgba(110,160,184,1) 47%, rgba(60,87,100,1) 99%);   
 }
 
+#twitter, #facebook, #instagram {
+	width: 50px;
+}
+
+.socials img {
+    margin-right: 15px;
+	margin-top: 10px;
+}
+
 .firstcontainer{
     background-color: #e3b1b1;
 	padding: 50px;
 	border-bottom: 2px solid #000000;
 }
-
-
 
 .heart {
 	width: 75px;
@@ -30,6 +37,10 @@ a.nav-link {
 	padding: 100px;
 	background: #9f9d9e;
 	border-bottom: 2px solid #000000;
+}
+
+img.shoppingcart {
+    right: 20px;
 }
 
 p.comfortSeason {
@@ -53,7 +64,6 @@ footer.page-footer {
 
 .navbar-expand-lg .navbar-collapse {
     background: white;
-
 }
 
 
@@ -203,11 +213,6 @@ a.nav-link:hover {
 	background: #9F9E9E;
 }
 
-img.shoppingcart {
-    width: 30px;
-    height: 30px;
-    margin-top: 20px;
-}
 
 button.btn.btn-outline-secondary.btn-lg {
     padding: 5px 10px;
@@ -235,14 +240,16 @@ button.btn.btn-outline-secondary.btn-lg {
 }
 
 img.Posby {
-	height: 50px;
+	height: 60px;
 }
 
 a.nav-link {
-    border: 2px solid grey;
     background: white;
     padding: 1px;
-	margin: 20px;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+    background: white !important;
 }
 
 nav.navbar.navbar-expand-lg.navbar-light.bg-light {
@@ -287,7 +294,6 @@ li.nav-item {
 }
 
 .featuresTop {
-    padding: 1em;
     position: relative;
     margin-bottom: 1em;
 }
@@ -390,9 +396,9 @@ li.nav-item {
 }
 
 img.shoppingcart {
-    width: 100px;
-    position: relative;
-    left: 100px;
+  	position: relative;
+    width: auto;
+    height: 60px;
 }
 
 #demo-modal .close {
@@ -499,9 +505,9 @@ li.nav-item {
 }
 	
 	img.shoppingcart {
-    width: 100px;
-    position: relative;
-    left: 50px;
+	position: relative;
+    height: 60px;
+	right: 20px;
 }
 	
 	a.nav-link {
@@ -526,10 +532,10 @@ li.nav-item {
 
 @media (max-width: 1200px) {
 img.shoppingcart {
-	width: 100px;
+	width: 60px;
+	right: 20px;
     position: relative;
     bottom: 0px;
-    left: -25px;
 }
 	
 	img.picture1 {
@@ -587,7 +593,7 @@ img.shoppingcart {
 
 	
 	img.shoppingcart {
-  	width: 100px;
+  	width: 60px;
     position: relative;
     bottom: 0px;
     left: 0;
@@ -636,6 +642,21 @@ img.shoppingcart {
 	
 
 @media (max-width: 768px) {
+	
+	form#contact-form {
+    width: 100% !important;
+}
+	
+	.socials img {
+    margin-right: 0;
+}
+	
+	form#contact-form input {
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 100%;
+}
 	
 	#fontjegroot {
 		text-align: center;
@@ -764,6 +785,16 @@ img.shoppingcart {
 	p.paragraphvalues {
     left: 0 !important;
 }
+	
+	#whowe1, #whowe2, #whowe3, #whowe4 {
+    display: block;
+    width: 100%;
+}
+	
+	.persons {
+	margin-top: 0;
+    padding: 0px 25px 0px 25px;
+	}
 
 	.description {
 		left: 0;
@@ -955,9 +986,9 @@ p.paragraphvalues {
 
 /* Contact */
 form#contact-form {
-    width: 50%;
+    width: 75%;
     left: 0;
-    padding: 75px;
+    padding: 75px 100px 75px 100px;
     right: 0;
     position: relative;
 	margin: 0 auto;
@@ -994,16 +1025,9 @@ img.review1  {
 	border-radius: 50%
 }
 
-#image1 {
+#image1, #image2, #image3 {
 	width: 200px;
-}
-
-#image2 {
-	width: 200px;
-}
-
-#image3 {
-	width: 200px;
+	border: 4px solid #e3b1b1;
 }
 
 .containerImages {
