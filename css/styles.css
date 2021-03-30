@@ -39,8 +39,7 @@ p.comfortSeason {
     left: -400px;
     position: absolute;
     text-align: center;
-	font-family: 'Staatliches', cursive;
-}
+	font-family: 'Staatliches', cursive;}
 
 .container comfort {
     padding: 100px;
@@ -1024,4 +1023,16 @@ img.review1  {
     color: white;
     margin-top: 25px;
     font-size: 24px;
+}
+
+.headerproducts{
+		font-family: 'Staatliches', cursive;
+    	color: white;
+		font-size:100px;
+}
+
+.checkoutmore{
+		font-family: 'Staatliches', cursive;
+    	color: white;
+		font-size:30px;
 }
