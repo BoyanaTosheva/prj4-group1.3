@@ -1090,3 +1090,22 @@ img.review3  {
     	color: white;
 		font-size:30px;
 }
+
+
+/* Map, contact page */
+.maps {
+    display:grid;
+    place-items:center;
+}
+
+.maps iframe {
+    width: 100%;
+	height: 400px;
+} 
+
+.container.map {
+    width: 100%;
+	max-width: 100%;
+    padding: 0;
+	border-top: 2px solid black;
+}

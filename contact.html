@@ -70,68 +70,64 @@
 	 <img class="shoppingcart" alt="Shopping Cart" src="images/shoppingcart.jpg">
   </div>
 </nav>
-	
 		
 	<div class="container-contact">
-	<form id="contact-form" method="post" action="contactform.php" role="form">
-    <div class="messages"></div>
-    <div class="controls">
-        <div class="row">
-            <div class="col-md-6">
-                <div class="form-group">
-                    <label for="form_name">First name</label>
-                    <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname" required="required" data-error="Firstname is required.">
-                    <div class="help-block with-errors"></div>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="form-group">
-                    <label for="form_lastname">Last name</label>
-                    <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname" required="required" data-error="Lastname is required.">
-                    <div class="help-block with-errors"></div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-6">
-                <div class="form-group">
-                    <label for="form_email">Email</label>
-                    <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email" required="required" data-error="Valid email is required.">
-                    <div class="help-block with-errors"></div>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="form-group">
-                    <label for="form_need">Please specify your need</label>
-                    <select id="form_need" name="need" class="form-control" required="required" data-error="Please specify your need.">
-                        <option value=""></option>
-                        <option value="Request quotation">Request quotation</option>
-                        <option value="Request order status">Request order status</option>
-                        <option value="Request copy of an invoice">Request copy of an invoice</option>
-                        <option value="Other">Other</option>
-                    </select>
-                    <div class="help-block with-errors"></div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-12">
-                <div class="form-group">
-                    <label for="form_message">Message</label>
-                    <textarea id="form_message" name="message" class="form-control" placeholder="Message for me" rows="4" required="required" data-error="Please, leave us a message."></textarea>
-                    <div class="help-block with-errors"></div>
-                </div>
-            </div>
-            <div class="col-md-12">
-                <input type="submit" class="btn btn-success btn-send" value="Send message">
-            </div>
-			   </div>
-        </div>
-</form>
+		<form id="contact-form" method="post" action="contactform.php" role="form">
+		<div class="messages"></div>
+		<div class="controls">
+			<div class="row">
+				<div class="col-md-6">
+					<div class="form-group">
+						<label for="form_name">First name</label>
+						<input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname" required="required" data-error="Firstname is required.">
+						<div class="help-block with-errors"></div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="form-group">
+						<label for="form_lastname">Last name</label>
+						<input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname" required="required" data-error="Lastname is required.">
+						<div class="help-block with-errors"></div>
+					</div>
+				</div>
 			</div>
-
-		
-		
+			<div class="row">
+				<div class="col-md-6">
+					<div class="form-group">
+						<label for="form_email">Email</label>
+						<input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email" required="required" data-error="Valid email is required.">
+						<div class="help-block with-errors"></div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="form-group">
+						<label for="form_need">Please specify your need</label>
+						<select id="form_need" name="need" class="form-control" required="required" data-error="Please specify your need.">
+							<option value=""></option>
+							<option value="Request quotation">Request quotation</option>
+							<option value="Request order status">Request order status</option>
+							<option value="Request copy of an invoice">Request copy of an invoice</option>
+							<option value="Other">Other</option>
+						</select>
+						<div class="help-block with-errors"></div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="form-group">
+						<label for="form_message">Message</label>
+						<textarea id="form_message" name="message" class="form-control" placeholder="Message for me" rows="4" required="required" data-error="Please, leave us a message."></textarea>
+						<div class="help-block with-errors"></div>
+					</div>
+				</div>
+				<div class="col-md-12">
+					<input type="submit" class="btn btn-success btn-send" value="Send message">
+				</div>
+				   </div>
+			</div>
+	</form>
+</div>
 		<!-- Socials -->
 		<div class="container-socialsContact">
 			<div class="row">
@@ -146,6 +142,16 @@
 					  <div class="textSocialContact">
 						  <p class="text-center">Follow us on Instagram!</p>
 					  </div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="container map">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="maps z-depth-1-half map-container-5" id="map-container-google-8">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7321.555956093963!2d4.787969841253845!3d51.589962254211606!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c69f7c842233bd%3A0x86d18b2b99f0f778!2sBreda%20University%20of%20Applied%20Sciences!5e0!3m2!1sen!2snl!4v1617003868090!5m2!1sen!2snl" allowfullscreen="" loading="lazy"></iframe>
+					</div>
 				</div>
 			</div>
 		</div>
