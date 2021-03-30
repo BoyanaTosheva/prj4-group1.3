@@ -54,7 +54,7 @@ footer.page-footer {
 
 .navbar-expand-lg .navbar-collapse {
     background: white;
-
+	height: 90px;
 }
 
 
@@ -236,11 +236,10 @@ button.btn.btn-outline-secondary.btn-lg {
 }
 
 img.Posby {
-	height: 50px;
+	height: 90px;
 }
 
 a.nav-link {
-    border: 2px solid grey;
     background: white;
     padding: 1px;
 	margin: 20px;
@@ -765,6 +764,16 @@ img.shoppingcart {
 	p.paragraphvalues {
     left: 0 !important;
 }
+	
+	#whowe1, #whowe2, #whowe3, #whowe4 {
+    display: block;
+    width: 100%;
+}
+	
+	.persons {
+	margin-top: 0;
+    padding: 0px 25px 0px 25px;
+	}
 
 	.description {
 		left: 0;
