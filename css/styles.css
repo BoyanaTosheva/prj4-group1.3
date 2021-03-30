@@ -9,13 +9,26 @@ html, body {
     background: linear-gradient(110deg, rgba(60,87,100,1) 1%, rgba(110,160,184,1) 47%, rgba(60,87,100,1) 99%);   
 }
 
-#twitter, #facebook, #instagram {
+#facebook, #instagram {
 	width: 50px;
+}
+
+#facebook1, #instagram1 {
+	width: 50px;
+}
+
+.container-socialsContact {
+    margin-bottom: 50px;
 }
 
 .socials img {
     margin-right: 15px;
 	margin-top: 10px;
+}
+
+.textSocialContact p {
+    margin-top: 15px;
+    font-size: 18px;
 }
 
 .firstcontainer{
@@ -647,6 +660,10 @@ img.shoppingcart {
     width: 100% !important;
 }
 	
+	.textSocialContact p {
+    margin-bottom: 30px;
+}
+	
 	.socials img {
     margin-right: 0;
 }
@@ -736,7 +753,7 @@ img.shoppingcart {
 		
 }
 	
-	@media screen and (max-width: 769px) and (min-width: 768px) {
+@media screen and (max-width: 769px) and (min-width: 768px) {
   img.picture1 {
    left: -210px !important;
   }
@@ -987,7 +1004,7 @@ p.paragraphvalues {
 
 /* Contact */
 form#contact-form {
-    width: 75%;
+    width: 69%;
     left: 0;
     padding: 75px 100px 75px 100px;
     right: 0;
