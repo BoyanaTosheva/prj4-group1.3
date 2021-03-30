@@ -648,6 +648,10 @@ img.shoppingcart {
     width: 100% !important;
 }
 	
+	.socials img {
+    margin-right: 0;
+}
+	
 	form#contact-form input {
     left: 0;
     right: 0;
