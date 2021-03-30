@@ -995,19 +995,9 @@ img.review1  {
 	border-radius: 50%
 }
 
-#image1 {
+#image1, #image2, #image3 {
 	width: 200px;
-	border: 2px solid #e3b1b1;
-}
-
-#image2 {
-	width: 200px;
-	border: 2px solid #e3b1b1;
-}
-
-#image3 {
-	width: 200px;
-	border: 2px solid #e3b1b1;
+	border: 4px solid #e3b1b1;
 }
 
 .containerImages {
