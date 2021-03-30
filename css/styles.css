@@ -997,14 +997,17 @@ img.review1  {
 
 #image1 {
 	width: 200px;
+	border: 2px solid black;
 }
 
 #image2 {
 	width: 200px;
+	border: 2px solid black;
 }
 
 #image3 {
 	width: 200px;
+	border: 2px solid black;
 }
 
 .containerImages {
