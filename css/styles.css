@@ -15,8 +15,6 @@ html, body {
 	border-bottom: 2px solid #000000;
 }
 
-
-
 .heart {
 	width: 75px;
 	
@@ -203,10 +201,6 @@ a.nav-link:hover {
 	background: #9F9E9E;
 }
 
-img.shoppingcart {
-    width: 30px;
-    height: 30px;
-}
 
 button.btn.btn-outline-secondary.btn-lg {
     padding: 5px 10px;
@@ -234,13 +228,16 @@ button.btn.btn-outline-secondary.btn-lg {
 }
 
 img.Posby {
-	height: 80px;
+	height: 60px;
 }
 
 a.nav-link {
     background: white;
     padding: 1px;
-	margin-top: 25px;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+    background: white !important;
 }
 
 nav.navbar.navbar-expand-lg.navbar-light.bg-light {
@@ -388,9 +385,8 @@ li.nav-item {
 
 img.shoppingcart {
   	position: relative;
-    left: 50px;
     width: auto;
-    height: 80px;
+    height: 60px;
 }
 
 #demo-modal .close {
@@ -498,8 +494,8 @@ li.nav-item {
 	
 	img.shoppingcart {
 	position: relative;
-    left: 50px;
-    height: 80px;
+    height: 60px;
+	right: 20px;
 }
 	
 	a.nav-link {
@@ -524,10 +520,10 @@ li.nav-item {
 
 @media (max-width: 1200px) {
 img.shoppingcart {
-	width: 80px;
+	width: 60px;
+	right: 20px;
     position: relative;
     bottom: 0px;
-    left: -25px;
 }
 	
 	img.picture1 {
@@ -585,7 +581,7 @@ img.shoppingcart {
 
 	
 	img.shoppingcart {
-  	width: 80px;
+  	width: 60px;
     position: relative;
     bottom: 0px;
     left: 0;
