@@ -752,7 +752,7 @@ img.shoppingcart {
 	}
 		
 }
-	
+		
 @media screen and (max-width: 769px) and (min-width: 768px) {
   img.picture1 {
    left: -210px !important;
@@ -1027,6 +1027,18 @@ form#contact-form {
 }
 
 img.review1  {
+	width: 300px;
+	border: 2px solid black;
+	border-radius: 50%;
+}
+
+img.review2  {
+	width: 300px;
+	border: 2px solid black;
+	border-radius: 50%;
+}
+
+img.review3  {
 	width: 300px;
 	border: 2px solid black;
 	border-radius: 50%;
