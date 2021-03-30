@@ -964,6 +964,12 @@ form#contact-form {
 	margin: 0 auto;
 }
 
+@media (max-width: 1200px) {
+form#contact-form {
+  width: 100%;
+	}
+}
+
 /* Carousel */
 .Test1 {
 	padding: 25px 25px 50px 25px;
