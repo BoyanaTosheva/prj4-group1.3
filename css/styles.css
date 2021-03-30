@@ -9,7 +9,11 @@ html, body {
     background: linear-gradient(110deg, rgba(60,87,100,1) 1%, rgba(110,160,184,1) 47%, rgba(60,87,100,1) 99%);   
 }
 
-#twitter, #facebook, #instagram {
+#facebook, #instagram {
+	width: 50px;
+}
+
+#facebook1, #instagram1 {
 	width: 50px;
 }
 
@@ -750,7 +754,7 @@ img.shoppingcart {
 		
 }
 	
-	@media screen and (max-width: 769px) and (min-width: 768px) {
+@media screen and (max-width: 769px) and (min-width: 768px) {
   img.picture1 {
    left: -210px !important;
   }
