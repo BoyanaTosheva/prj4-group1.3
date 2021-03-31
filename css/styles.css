@@ -113,7 +113,7 @@ a.nav-link {
 
 .missionText p {
 	text-align: center;
-	font-size: 2rem;
+	font-size: 30px;
 }
 
 
@@ -868,6 +868,13 @@ img.shoppingcart {
 		font-size: 80px !important;
 	}
 	
+	.valuephotos {
+    float: none;
+	display: block;
+    margin: 0 auto;
+
+}
+	
 	.container-mission {
 		padding: 50px;
 	}
@@ -1103,6 +1110,7 @@ img.shoppingcart {
     left: 0 !important;
 	}
 	
+	
 	h1.headerproducts {
 		font-size: 75px;
 	}
@@ -1135,7 +1143,7 @@ img.shoppingcart {
 	}
 	
 	footer.page-footer {
-    font-size: 2rem;
+    font-size: 21px;
 	}
 	
 	img.Posby {
@@ -1214,6 +1222,16 @@ img.shoppingcart {
 		img#image1, img#image2, img#image3, img#image4  {
 			width: 300px;
 	}
+	
+	p.paragraphvalues {
+    text-align: center;
+    position: relative;
+    width: 80%;
+    font-size: 22px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+}
 	
 	.overlayProduct {
     width: 300px;
