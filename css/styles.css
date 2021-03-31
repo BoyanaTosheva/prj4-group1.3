@@ -1055,7 +1055,7 @@ img.review3  {
 	border-radius: 50%
 }
 
-#image1, #image2, #image3 {
+#image1, #image2, #image3, #image4 {
 	width: 300px;
 	border: 4px solid #e3b1b1;
 }
@@ -1105,11 +1105,13 @@ img.review3  {
 }
 
 #moreproducts{
-    color: #FFFFFF;
-    text-align: center;
 	font-family: 'Staatliches', cursive;
     color: white;
-	font-size:25px;
+    font-size: 34px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
 	
 }
 
@@ -1117,5 +1119,89 @@ img.review3  {
 	color:#e3b1b1;
 }
 
+.mailIcon {
+	width: 40px;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlayProduct {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 300px;;
+    display: block;
+    margin: 0 auto;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+}
+
+#overlayProduct1:hover {
+  opacity: 1;
+}
+
+#overlayProduct2:hover {
+  opacity: 1;
+}
+
+#overlayProduct3:hover {
+  opacity: 1;
+}
+
+#overlayProduct4:hover {
+	  opacity: 1;
+}
+
+.textProduct {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+@media (max-width: 1500px) {
+		img#image1, img#image2, img#image3, img#image4  {
+			width: 200px;
+	}
+	
+	.overlayProduct {
+    width: 200px;;
+	}
+}
+
+@media (max-width: 1100px) {
+		img#image1, img#image2, img#image3, img#image4  {
+			width: 150px;
+	}
+	
+	.overlayProduct {
+    width: 150px;;
+	}
+}
+
+@media (max-width: 768px) {
+		img#image1, img#image2, img#image3, img#image4  {
+			width: 300px;
+	}
+	
+	.overlayProduct {
+    width: 300px;
+	height: 300px;
+
+	}
+}
 
 
