@@ -1056,7 +1056,7 @@ img.review3  {
 }
 
 #image1, #image2, #image3 {
-	width: 200px;
+	width: 300px;
 	border: 4px solid #e3b1b1;
 }
 
@@ -1085,12 +1085,6 @@ img.review3  {
 		font-size:100px;
 }
 
-.checkoutmore{
-		font-family: 'Staatliches', cursive;
-    	color: white;
-		font-size:30px;
-}
-
 
 /* Map, contact page */
 .maps {
@@ -1109,3 +1103,19 @@ img.review3  {
     padding: 0;
 	border-top: 2px solid black;
 }
+
+#moreproducts{
+    color: #FFFFFF;
+    text-align: center;
+	font-family: 'Staatliches', cursive;
+    color: white;
+	font-size:25px;
+	
+}
+
+#moreproducts:hover{
+	color:#e3b1b1;
+}
+
+
+
