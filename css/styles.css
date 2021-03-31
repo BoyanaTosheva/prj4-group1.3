@@ -1119,6 +1119,7 @@ img.review3  {
 	color:#e3b1b1;
 }
 
+<<<<<<< HEAD
 .mailIcon {
 	width: 40px;
 }
@@ -1204,4 +1205,10 @@ img.review3  {
 	}
 }
 
+=======
+.arrow{
+	color: white;
+	align-content: center;
+}
+>>>>>>> 6ba65c4cd68c588f5660ed94c12257c1ea2b54d0
 
