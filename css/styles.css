@@ -1121,4 +1121,11 @@ img.review3  {
 	color: white;
 	align-content: center;
 }
+#fontjegroot1{
+	font-size: 130px;
+}
+
+#fontjegroot1:hover{
+	color: #e3b1b1;
+}
 
