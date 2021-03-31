@@ -868,12 +868,17 @@ img.shoppingcart {
 		font-size: 80px !important;
 	}
 	
+	nav.navbar.navbar-expand-lg.navbar-light.bg-light a {
+		font-size: 24px;
+		line-height: 50px;
+}
+	
 	.valuephotos {
     float: none;
 	display: block;
     margin: 0 auto;
-
-}
+	}
+	
 	
 	.container-mission {
 		padding: 50px;
@@ -909,17 +914,19 @@ img.shoppingcart {
 	}
 
 	img.shoppingcart {
-  	width: 60px;
     position: relative;
-    bottom: 0px;
     left: 0;
     margin: 0 auto;
+    display: block;
+    margin-top: 10px;
 	}
 	
 	li.nav-item {
-    width: 100%;
-	left: 10px;
+    display: block;
     text-align: center;
+    margin: 0 auto;
+    left:  10px;
+    width: 100% !important;
 	}
 	
 	img.Posby {
