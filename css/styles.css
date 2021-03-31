@@ -18,6 +18,24 @@ html, body {
 	background: #e3b1b1;
 }
 
+img.email {
+    width: 50px;
+}
+
+.textEmail a {
+    display: flex;
+    color: black;
+}
+
+.textEmail p {
+    position: relative;
+    left: 10px;
+}
+
+.textEmail {
+    display: flex;
+}
+
 #facebook1, #instagram1 {
 	width: 50px;
 }
@@ -914,8 +932,9 @@ img.shoppingcart {
 	}
 	
 	.arrow {
-	top: 300px;
 	position: relative;
+	top: 350px;
+	left: 30px;
 	}
 	
 
@@ -991,6 +1010,16 @@ img.shoppingcart {
 	form#contact-form {
     width: 100% !important;
 	}
+	
+	.textEmail  {
+		display: block;
+	}
+	
+	.arrow {
+    position: relative;
+    top: 350px;
+    left: 0px;
+}
 	
 	.textSocialContact p {
     margin-bottom: 30px;
@@ -1086,17 +1115,36 @@ img.shoppingcart {
 		
 }
 		
-@media screen and (max-width: 769px) and (min-width: 768px) {
+
+@media screen and (width: 768px) {
+.textEmail {
+    display: flex !important;
+}
+	.textEmail a {
+    display: flex !important;
+}
 	
 	img.picture1 {
-	left: -210px !important;
+	left: -160px !important;
 	}
 	
 	p.comfortSeason {
-	left: 200px !important;
+	left: 185px !important;
 	}
 	
+	.overlayProduct {
+    width: 150px !important;
+}	
+	footer.page-footer {
+	text-align: left;
+	}
+	
+	img#image1, img#image2, img#image3, img#image4 {
+    width: 150px !important;
 }
+	
+}
+
 	
 	@media (max-width: 1300px) {
 		
@@ -1258,6 +1306,10 @@ img.shoppingcart {
 		img#image1, img#image2, img#image3, img#image4  {
 			width: 300px;
 	}
+	
+	.textEmail a {
+    display: block;
+}
 	
 	p.paragraphvalues {
     text-align: center;
