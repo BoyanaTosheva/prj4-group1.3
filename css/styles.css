@@ -85,7 +85,7 @@ ul.navbar-nav.mr-auto {
 }
 
 .container.comfort {
-	padding: 100px;
+	padding: 50px 50px 0 50px;
 }
 
 .colorPaletteText h1 {
@@ -1145,19 +1145,19 @@ img.review3  {
 }
 
 #overlayProduct1:hover {
-  opacity: 1;
+  opacity: 0.8;
 }
 
 #overlayProduct2:hover {
-  opacity: 1;
+  opacity: 0.8;
 }
 
 #overlayProduct3:hover {
-  opacity: 1;
+  opacity: 0.8;
 }
 
 #overlayProduct4:hover {
-	  opacity: 1;
+  opacity: 0.8;
 }
 
 .textProduct {
@@ -1205,7 +1205,15 @@ img.review3  {
 }
 
 .arrow{
-	color: white;
-	align-content: center;
+    color: white;
+    font-size: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+}
+
+.arrow:hover {
+    color: #6ea0b8;
+	opacity: 1;
 }
 
