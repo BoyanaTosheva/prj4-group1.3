@@ -14,18 +14,46 @@ html, body {
 	width: 50px;
 }
 
+.container-contact {
+	background: #e3b1b1;
+}
+
 #facebook1, #instagram1 {
 	width: 50px;
 }
 
+#facebookContact {
+	width: 50px;
+}
+
+#instagramContact {
+	width: 50px;
+	margin-top: 25px;
+}
+
 .container-socialsContact {
-    margin-bottom: 50px;
+    background: #669691;
+    padding-top: 50px;
+    border-top: 2px solid black;
 }
 
 .socials img {
     margin-right: 15px;
 	margin-top: 10px;
 }
+
+.mapText h1 {
+   margin: 50px 0px 25px 0px;
+}
+
+.mapFrame {
+	border-top: 2px solid black;
+}
+
+.contactText h1 {
+    margin-bottom: 50px;
+}
+
 
 .textSocialContact p {
     margin-top: 15px;
@@ -263,7 +291,7 @@ p.paragraphvalues {
 
 /* Contact */
 form#contact-form {
-    width: 69%;
+    width: 100%;
     left: 0;
     padding: 75px 100px 75px 100px;
     right: 0;
@@ -361,7 +389,7 @@ img.review3  {
     width: 100%;
 	max-width: 100%;
     padding: 0;
-	border-top: 2px solid black;
+	background: #669691;
 }
 
 #moreproducts{
