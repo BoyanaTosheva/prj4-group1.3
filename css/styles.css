@@ -1401,6 +1401,7 @@ img.shoppingcart {
 @media (max-width: 768px) {
 		img#image1, img#image2, img#image3, img#image4  {
 			width: 300px;
+			height: auto;
 	}
 	
 	.textEmail a {
