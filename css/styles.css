@@ -49,10 +49,31 @@ img.email {
 	margin-top: 50px;
 }
 
+/* Mission Page */
+
+.container-missionTop {
+	padding: 75px;
+    background: #669691;
+    border-bottom: 2px solid #000000;
+}
+
 .container-socialsContact {
     background: #669691;
     padding-top: 75px;
     border-top: 2px solid black;
+}
+
+.headerMission h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: white;
+	font-family: 'Staatliches', cursive;
+}
+
+img.missionImage {
+	width: 700px;
+	margin: 0 auto;
+	display: block;
 }
 
 .socials img {
