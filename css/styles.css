@@ -625,7 +625,7 @@ button.btn.btn-outline-secondary.btn-lg {
 	color: #E3B1B1;
 	text-align: center;
 	font-family: 'Staatliches', cursive;
-	font-size: 168px;
+	font-size: 120px;
 	
 }
 
@@ -693,7 +693,6 @@ li.nav-item {
 
 .featuresTop {
     position: relative;
-    margin-bottom: 1em;
 }
 
 .feature-title {
