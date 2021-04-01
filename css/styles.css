@@ -65,7 +65,7 @@ img.email {
 /* Mission Page */
 
 .container-missionTop {
-	padding: 75px;
+	padding: 0px;
     background: #669691;
     border-bottom: 2px solid #000000;
 }
@@ -78,7 +78,8 @@ img.email {
 
 .headerMission h1 {
     text-align: center;
-    margin-bottom: 25px;
+    margin-bottom: 10px;
+	margin-top: 10px;
     color: white;
 	font-family: 'Staatliches', cursive;
 }
