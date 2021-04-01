@@ -76,13 +76,6 @@ img.email {
     border-top: 2px solid black;
 }
 
-.headerMission h1 {
-    text-align: center;
-    margin-bottom: 10px;
-	margin-top: 10px;
-    color: white;
-	font-family: 'Staatliches', cursive;
-}
 
 img.missionImage {
 	margin: 0 auto;
@@ -1424,3 +1417,18 @@ img.shoppingcart {
 	color: white;
 	font-size: 60px;
 	}
+
+.missionheading{
+    font-family: 'Staatliches', cursive;
+    text-align: center;
+    color: white;
+    font-size: 100px;
+    margin-top: 42px;
+}
+.missionheading:hover{
+	color: #e3b1b1;
+	}
+
+.headerMission{
+    height: 177px;
+}
