@@ -965,23 +965,23 @@ img.shoppingcart {
 	
 .container-palette {
     padding: 50px;
-}
+	}
 	#fontjegroot {
-		font-size: 80px !important;
+	font-size: 80px !important;
 	}
 	
 	.values {
-		width: 100%;
+	width: 100%;
 	}
 	
 	img.missionImage {
     width: 400px;
-}
+	}
 	
 	nav.navbar.navbar-expand-lg.navbar-light.bg-light a {
 		font-size: 24px;
 		line-height: 50px;
-}
+	}
 	
 	.valuephotos {
     float: none;
