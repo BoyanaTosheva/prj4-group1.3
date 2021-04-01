@@ -289,6 +289,8 @@ img.colorPalette {
 	text-align: center;
 	font-family: 'Staatliches', cursive;
 	font-size: 60px;
+	width: 75%;
+    margin: 0 auto;
 	margin-top: 20px;
 	text-decoration: underline;
 	}
@@ -854,6 +856,13 @@ img.shoppingcart {
 	
 }
 
+@media (max-width: 1152px) {
+	.values {
+		    width: 103%;
+	}
+
+}
+
 @media (max-width: 1100px) {
 	li.nav-item {
     width: 100px !important;
@@ -959,6 +968,10 @@ img.shoppingcart {
 }
 	#fontjegroot {
 		font-size: 80px !important;
+	}
+	
+	.values {
+		width: 100%;
 	}
 	
 	img.missionImage {
