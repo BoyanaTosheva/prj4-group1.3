@@ -10,6 +10,19 @@ html, body {
 	 scroll-behavior: smooth;
 }
 
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  display: grid;
+}
+.footer {
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
 #facebook, #instagram {
 	width: 50px;
 }
@@ -49,10 +62,31 @@ img.email {
 	margin-top: 50px;
 }
 
+/* Mission Page */
+
+.container-missionTop {
+	padding: 75px;
+    background: #669691;
+    border-bottom: 2px solid #000000;
+}
+
 .container-socialsContact {
     background: #669691;
     padding-top: 75px;
     border-top: 2px solid black;
+}
+
+.headerMission h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: white;
+	font-family: 'Staatliches', cursive;
+}
+
+img.missionImage {
+	width: 700px;
+	margin: 0 auto;
+	display: block;
 }
 
 .socials img {
@@ -255,15 +289,20 @@ img.colorPalette {
 	text-align: center;
 	font-family: 'Staatliches', cursive;
 	font-size: 60px;
+	width: 75%;
+    margin: 0 auto;
 	margin-top: 20px;
 	text-decoration: underline;
 	}
 
 p.paragraphvalues {
-	text-align: left;
-	position: relative;
-	left: 10px;
-	font-size: 22px;
+	text-align: center;
+    position: relative;
+    left: 10px;
+    width: 75%;
+    display: block;
+    margin: 0 auto;
+    font-size: 22px;
 	}
 
 .comfortSeason:hover{
@@ -817,6 +856,13 @@ img.shoppingcart {
 	
 }
 
+@media (max-width: 1152px) {
+	.values {
+		    width: 103%;
+	}
+
+}
+
 @media (max-width: 1100px) {
 	li.nav-item {
     width: 100px !important;
@@ -906,19 +952,36 @@ img.shoppingcart {
 }
 
 
+@media (width: 992px) {
+	.valuephotos {
+	float: none;
+    display: block;
+    margin: 0 auto;
+	}
+}
+
+
 @media (max-width: 991.98px) {
 	
 .container-palette {
     padding: 50px;
-}
+	}
 	#fontjegroot {
-		font-size: 80px !important;
+	font-size: 80px !important;
+	}
+	
+	.values {
+	width: 100%;
+	}
+	
+	img.missionImage {
+    width: 400px;
 	}
 	
 	nav.navbar.navbar-expand-lg.navbar-light.bg-light a {
 		font-size: 24px;
 		line-height: 50px;
-}
+	}
 	
 	.valuephotos {
     float: none;
@@ -1177,6 +1240,11 @@ img.shoppingcart {
     margin-bottom: 0 !important;
     font-size: 5rem;
 	}
+		
+	img.missionImage {
+    width: 200px !important;
+	}
+	
 }
 	
 		
@@ -1187,6 +1255,13 @@ img.shoppingcart {
 	}
 	
 }
+
+@media (max-width: 450px) {
+	img.missionImage {
+    width: 250px !important;
+	}
+	
+}
 	
 @media (max-width: 575.98px) {
 	
@@ -1194,6 +1269,9 @@ img.shoppingcart {
     left: 0 !important;
 	}
 	
+	img.missionImage {
+    width: 300px;
+}
 	
 	h1.headerproducts {
 		font-size: 75px;
