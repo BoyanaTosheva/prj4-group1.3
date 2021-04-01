@@ -85,9 +85,14 @@ img.email {
 }
 
 img.missionImage {
-	width: 700px;
 	margin: 0 auto;
+	margin-top: 2px;
 	display: block;
+	max-width:1920px;
+    max-height:1080px;
+    width:auto;
+    height:auto;
+	
 }
 
 .backgroundmissionpage {
