@@ -1374,7 +1374,8 @@ img.shoppingcart {
 
 @media (max-width: 1500px) {
 		img#image1, img#image2, img#image3, img#image4  {
-			height: 300px;
+		width: 170px;
+		height: 200px;
 	}
 	
 	.overlayProduct {
