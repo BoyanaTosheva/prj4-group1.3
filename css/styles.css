@@ -295,9 +295,12 @@ img.colorPalette {
 
 p.paragraphvalues {
 	text-align: center;
-	position: relative;
-	left: 10px;
-	font-size: 22px;
+    position: relative;
+    left: 10px;
+    width: 75%;
+    display: block;
+    margin: 0 auto;
+    font-size: 22px;
 	}
 
 .comfortSeason:hover{
