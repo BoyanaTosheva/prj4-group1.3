@@ -943,6 +943,15 @@ img.shoppingcart {
 }
 
 
+@media (width: 992px) {
+	.valuephotos {
+	float: none;
+    display: block;
+    margin: 0 auto;
+	}
+}
+
+
 @media (max-width: 991.98px) {
 	
 .container-palette {
