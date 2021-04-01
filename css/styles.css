@@ -936,6 +936,10 @@ img.shoppingcart {
 		font-size: 80px !important;
 	}
 	
+	img.missionImage {
+    width: 400px;
+}
+	
 	nav.navbar.navbar-expand-lg.navbar-light.bg-light a {
 		font-size: 24px;
 		line-height: 50px;
@@ -1198,6 +1202,11 @@ img.shoppingcart {
     margin-bottom: 0 !important;
     font-size: 5rem;
 	}
+		
+	img.missionImage {
+    width: 200px !important;
+	}
+	
 }
 	
 		
@@ -1208,6 +1217,13 @@ img.shoppingcart {
 	}
 	
 }
+
+@media (max-width: 450px) {
+	img.missionImage {
+    width: 250px !important;
+	}
+	
+}
 	
 @media (max-width: 575.98px) {
 	
@@ -1215,6 +1231,9 @@ img.shoppingcart {
     left: 0 !important;
 	}
 	
+	img.missionImage {
+    width: 300px;
+}
 	
 	h1.headerproducts {
 		font-size: 75px;
