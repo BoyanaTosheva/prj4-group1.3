@@ -10,6 +10,19 @@ html, body {
 	 scroll-behavior: smooth;
 }
 
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  display: grid;
+}
+.footer {
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
 #facebook, #instagram {
 	width: 50px;
 }
