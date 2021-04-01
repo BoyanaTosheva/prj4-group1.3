@@ -90,7 +90,7 @@ img.missionImage {
 	display: block;
 	max-width:1920px;
     max-height:1080px;
-    width:auto;
+    width:100%;
     height:auto;
 	
 }
