@@ -379,21 +379,20 @@ form#contact-form {
 }
 
 img.review1  {
-	width: 300px;
-	height: 300px;
-	border-radius: 50%;
+    width: 700px;
+    border-radius: none;
+    height: 700px;
 }
 
 img.review2  {
-	width: 300px;
-	height: 300px;
-	border-radius: 50%;
+    width: 700px;
+    height: 700px;
+    border-radius: 0;
 }
 
 img.review3  {
-	width: 300px;
-	height: 300px;
-	border-radius: 50%;
+    width: 700px;
+    height: 700px;
 }
 
 .Test1 h1 {
@@ -459,9 +458,9 @@ img.review3  {
 }
 
 #moreproducts{
-	font-family: 'Staatliches', cursive;
+    font-family: 'Staatliches', cursive;
     color: white;
-    font-size: 34px;
+    font-size: 19px;
     text-align: center;
     display: block;
     margin: 0 auto;
@@ -847,6 +846,20 @@ img.shoppingcart {
 #demo-modal .btn:focus {
 	background-color: #12968d;
 }
+.col-md-12 .wireframesText .maintext {
+}
+.col-md-12 .wireframesText .maintext {
+    color: #FFFFFF;
+    text-align: center;
+}
+.container-about {
+    background-color: #E3B1B2;
+}
+
+
+
+
+
 
 /*--- media queries ---*/
 @media (max-width: 2200px) {
