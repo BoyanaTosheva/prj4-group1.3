@@ -5,8 +5,7 @@ html, body {
     margin: 0;
 	width: 100%;
 	overflow-x: hidden;
-	background: rgb(60,87,100);
-    background: linear-gradient(110deg, rgba(60,87,100,1) 1%, rgba(110,160,184,1) 47%, rgba(60,87,100,1) 99%);
+	background: #6EA0B8;
 	 scroll-behavior: smooth;
 }
 
@@ -18,9 +17,14 @@ body {
   min-height: 100%;
   display: grid;
 }
+
 .footer {
   grid-row-start: 2;
   grid-row-end: 3;
+}
+
+.carouselContainer {
+	background: #6EA0B8;
 }
 
 #facebook, #instagram {
@@ -698,6 +702,7 @@ li.nav-item {
 
 .featuresTop {
     position: relative;
+	background: #6EA0B8;
 }
 
 .feature-title {
@@ -1367,7 +1372,7 @@ img.shoppingcart {
 
 @media (max-width: 1500px) {
 		img#image1, img#image2, img#image3, img#image4  {
-			width: 200px;
+		width: 250px;
 	}
 	
 	.overlayProduct {
@@ -1377,7 +1382,8 @@ img.shoppingcart {
 
 @media (max-width: 1100px) {
 		img#image1, img#image2, img#image3, img#image4  {
-			width: 150px;
+		height: 190px;
+		width: 170px;
 	}
 	
 	.overlayProduct {
