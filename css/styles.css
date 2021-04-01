@@ -65,7 +65,7 @@ img.email {
 /* Mission Page */
 
 .container-missionTop {
-	padding: 75px;
+	padding: 0px;
     background: #669691;
     border-bottom: 2px solid #000000;
 }
@@ -78,15 +78,25 @@ img.email {
 
 .headerMission h1 {
     text-align: center;
-    margin-bottom: 25px;
+    margin-bottom: 10px;
+	margin-top: 10px;
     color: white;
 	font-family: 'Staatliches', cursive;
 }
 
 img.missionImage {
-	width: 700px;
 	margin: 0 auto;
+	margin-top: 2px;
 	display: block;
+	max-width:1000px;
+    width:100%;
+    height:auto;
+	
+}
+
+.backgroundmissionpage {
+	background-color: #F7F7F7
+	
 }
 
 .socials img {
@@ -403,6 +413,7 @@ img.review3  {
 
 #image1, #image2, #image3, #image4 {
 	width: 300px;
+	height: 300px;
 	border: 4px solid #e3b1b1;
 }
 
@@ -487,7 +498,7 @@ img.review3  {
 	margin: 0 auto;
 	opacity: 0;
 	transition: .5s ease;
-	background-color: #008CBA;
+	background-color: #e3b1b1;
 }
 
 #overlayProduct1:hover {
@@ -523,6 +534,7 @@ img.review3  {
 .textProduct {
   color: white;
   font-size: 20px;
+font-family: 'Staatliches';
   position: absolute;
   top: 50%;
   left: 50%;
@@ -852,6 +864,7 @@ img.shoppingcart {
 	.container-fluid {
     height: 1400px !important;
 	}
+	
 	
 }
 
