@@ -5,10 +5,7 @@ html, body {
     width: 100%;
     overflow-x: hidden;
     scroll-behavior: smooth;
-    background-image: url(../images/SVG/Artboard%201-01.svg);
-    background-image: url(../images/SVG/Artboard%201.svg);
-    background-repeat: no-repeat;
-    background-size: auto auto;
+    background-image: url(../images/SVG/Artboard%201-01-01.svg);
 }
 
 html {
@@ -17,10 +14,7 @@ html {
 
 body {
   min-height: 100%;
-<<<<<<< HEAD
-display: grid;
-=======
->>>>>>> parent of fd9a6da (responsiveness change maybe)
+	display: grid;
 }
 
 .footer {
@@ -120,13 +114,7 @@ i.fa.fa-apple {
     text-align: center;
 }
 
-.container-AboutProducts .col-md-4 {
-	padding: 25px;
-}
 
-.container-AboutProducts {
-	padding: 75px;
-}
 
 .headerProducts h1 {
 	text-align: center;
@@ -152,7 +140,7 @@ color: #6EA0B8;
 .container-product {
 	background: #e3b1b1;
 }
-<<<<<<< HEAD
+
 .container-about-design {
     background-image: url(url);
     background-color: #E3B1B2;
@@ -165,18 +153,10 @@ color: #6EA0B8;
 .flowdiagram {
     background-color: #E3B1B2;
 }
-.carouselContainerdesign   {
-}
+
 .container-prototype {
     background-color: #9F9D9E;
 }
-=======
->>>>>>> 28e33c578758f9d788e3290805664addf6dbbf6c
-
-
-
-
-
 
 @media (max-width: 1200px) {
 	.container-product img {
@@ -961,6 +941,12 @@ img.shoppingcart {
 .container-palette {
     background-color: #E6927A;
 }
+
+
+
+
+
+
 
 
 /*--- media queries ---*/
