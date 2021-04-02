@@ -236,7 +236,7 @@ img.colorPalette {
 	}
 
 	#fontjegroot{
-	font-size: 130px;	
+	font-size: 100px;	
 	}
 
 	#fontjegroot:hover{
@@ -244,13 +244,19 @@ img.colorPalette {
 	}
 
 #fontjegroot1{
-	font-size: 130px;
+	font-size: 100px;
 }
 
 #fontjegroot1:hover{
-	color: #e3b1b1;
+	color: #6ea0b8;
 }
 
+#fontjegroot2{
+	font-size: 120px;
+}
+#fontjegroot2:hover{
+	color: #6ea0b8;
+}
 	.paragrahpho{
 	padding-top: 61px;
 	padding-bottom: 61px;
@@ -379,20 +385,21 @@ form#contact-form {
 }
 
 img.review1  {
-    width: 700px;
-    border-radius: none;
-    height: 700px;
+    width: 400px;
+    height: 400px;
+    border-radius: 200px;
 }
 
 img.review2  {
-    width: 700px;
-    height: 700px;
-    border-radius: 0;
+    width: 400px;
+    height: 400px;
+    border-radius: 200px;
 }
 
 img.review3  {
-    width: 700px;
-    height: 700px;
+    width: 400px;
+    height: 400px;
+	  border-radius: 200px;
 }
 
 .Test1 h1 {
@@ -460,7 +467,7 @@ img.review3  {
 #moreproducts{
     font-family: 'Staatliches', cursive;
     color: white;
-    font-size: 19px;
+    font-size: 25px;
     text-align: center;
     display: block;
     margin: 0 auto;
@@ -1458,4 +1465,37 @@ img.shoppingcart {
 
 .headerMission{
     height: 177px;
+}
+
+.who1{
+	    font-family: 'Staatliches', cursive;
+    text-align: center;
+    color: white;
+    font-size: 100px;
+    margin-top: 42px;
+}
+
+.container-services{
+	background: #9f9d9e;
+	border-bottom: 2px solid #000000;
+}
+.servicesss{
+    height: auto;
+    padding-top: 9px;
+    padding-bottom: 65px;
+    font-size: 20px;
+    text-align: center;
+}
+.service{
+    font-family: 'Staatliches';
+	font-size: 45px;
+    text-align: center;
+    padding-top: 19px;	
+	text-decoration: underline;	
+}
+
+#heer{
+    color: white;
+    text-decoration: underline;	
+	
 }
