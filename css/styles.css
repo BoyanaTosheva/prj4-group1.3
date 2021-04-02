@@ -1401,6 +1401,21 @@ img.shoppingcart {
 	margin-top: 50px;
 	}
 		
+	div#overlayProduct1 {
+    width: 250px !important;
+    height: 230px !important;
+}
+		
+	div#overlayProduct2 {
+	width: 250px !important;
+    height: 230px !important;
+}
+		
+	.overlayProduct {
+	width: 250px !important;
+	height: 240px !important;
+	}
+
 	  .servicesss {
 	  width: 60%;
 	  }
@@ -1438,6 +1453,11 @@ img.shoppingcart {
     width: 250px !important;
 	}
 	
+	img.review1, img.review2, img.review3 {
+    width: 250px !important;
+    height: 250px !important;
+}
+	
 }
 	
 @media (max-width: 575.98px) {
@@ -1445,6 +1465,11 @@ img.shoppingcart {
 	p.paragraphvalues {
     left: 0 !important;
 	}
+	
+	img.review1, img.review2, img.review3 {
+    width: 300px;
+    height: 300px;
+}
 	
 	p.comfortSeason {
     margin-bottom: 25px;
@@ -1566,10 +1591,20 @@ img.shoppingcart {
 }
 
 @media (max-width: 768px) {
-		img#image1, img#image2, img#image3, img#image4  {
-			width: 300px;
-			height: auto;
+	img#image1, img#image2, img#image3, img#image4  {
+		width: 300px;
+		height: auto;
 	}
+	
+	div#overlayProduct1 {
+    width: 300px;
+    height: 275px;
+}
+	
+	div#overlayProduct2 {
+    width: 300px;
+    height: 275px;
+}
 	
 	h1#fontjegroot2 {
     text-align: center;
@@ -1597,7 +1632,7 @@ img.shoppingcart {
 	
 	.overlayProduct {
     width: 300px;
-	height: 278px;
+	height: 290px;
 	}
 }
 
@@ -1624,16 +1659,16 @@ img.shoppingcart {
 }
 
 .who1{
-	    font-family: 'Staatliches', cursive;
+	font-family: 'Staatliches', cursive;
     text-align: center;
     color: white;
     font-size: 100px;
-    margin-top: 50px;
     margin-bottom: 25px;
 }
 
 .container-services{
 	background: #9f9d9e;
+	padding-top: 50px;
 	border-bottom: 2px solid #000000;
 }
 .servicesss{
