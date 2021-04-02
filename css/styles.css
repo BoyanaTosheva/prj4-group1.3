@@ -1102,6 +1102,14 @@ img.shoppingcart {
 	}
 }
 
+@media (max-width: 460px) {
+	footer.page-footer p {
+		width: 80%;
+		margin: 0 auto;
+		display: block;
+	}
+}
+
 
 @media (max-width: 991.98px) {
 	
@@ -1114,8 +1122,11 @@ img.shoppingcart {
 	
 	.container-product img {
     width: 150px;
-
-}
+	}
+	
+	#fontjegroot2 {
+    font-size: 100px;
+	}
 	
 	.values {
 	width: 100%;
