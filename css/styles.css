@@ -3,10 +3,10 @@
 html, body {
     padding: 0;
     margin: 0;
-	width: 100%;
-	overflow-x: hidden;
-	background: #6EA0B8;
-	scroll-behavior: smooth;
+    width: 100%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    background-image: url(../images/banner-01.png);
 }
 
 html {
@@ -147,6 +147,37 @@ color: #6EA0B8;
 .container-product {
 	background: #e3b1b1;
 }
+.container-about-design {
+    background-image: url(url);
+    background-color: #E3B1B2;
+}
+.container-wireframes .container {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    background-color: #43A8D4;
+}
+.container-wireframes {
+    background-color: #43A8D4;
+}
+
+.flowdiagram {
+    background-color: #E3B1B2;
+}
+.carouselContainerdesign   {
+}
+.container-prototype {
+    background-color: #9F9D9E;
+}
+
+
+
+
+
 
 
 @media (max-width: 1200px) {
@@ -161,6 +192,11 @@ color: #6EA0B8;
 	padding-top: 25px;
 	border-bottom: 2px solid black;
 }
+.col-md-12 .Test1 .visual1 {
+    width: 800px;
+    height: 600px;
+}
+
 
 .socials img {
     margin-right: 15px;
@@ -775,7 +811,6 @@ li.nav-item {
 
 .featuresTop {
     position: relative;
-	background: #6EA0B8;
 }
 
 .feature-title {
