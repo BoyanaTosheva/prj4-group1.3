@@ -1644,6 +1644,8 @@ img.shoppingcart {
     height: 200px;
     align-content: center;
     border-radius: 300px;
+	display: block;
+    margin: 0 auto;
 
 }
 #offerswim1{
@@ -1761,6 +1763,12 @@ span.price {
   }
   .col-25 {
     margin-bottom: 20px;
+  }
+	
+  .servicesss {
+  width: 70%;
+  margin: 0 auto;
+  display: block;
   }
 }
 
