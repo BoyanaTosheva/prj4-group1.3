@@ -120,7 +120,7 @@ i.fa.fa-apple {
 }
 
 .container-AboutProducts {
-	padding: 50px;
+	padding: 75px;
 }
 
 .headerProducts h1 {
@@ -159,6 +159,7 @@ color: #6EA0B8;
 .container-product {
     padding-bottom: 50px;
 	padding-top: 25px;
+	border-bottom: 2px solid black;
 }
 
 .socials img {
