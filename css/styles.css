@@ -1499,3 +1499,26 @@ img.shoppingcart {
     text-decoration: underline;	
 	
 }
+
+.container-checkout{
+	    background-color: #e3b1b1;
+
+}
+
+.container-checkout2{
+    background-color: white;
+    border-style: solid;
+    border-color: #010101;	
+}
+.productbought{
+    width: 200px;
+    height: 200px;
+	
+}
+.productboughttitle{
+	  font-family: 'Staatliches';
+	font-size: 25px;
+	color: black;
+    text-align: left;	
+	text-decoration: underline;	
+}
