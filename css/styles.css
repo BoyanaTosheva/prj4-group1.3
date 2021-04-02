@@ -149,9 +149,7 @@ color: #6EA0B8;
 .container-product {
 	background: #e3b1b1;
 }
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
+
 .container-about-design {
     background-image: url(url);
     background-color: #E3B1B2;
@@ -166,18 +164,9 @@ color: #6EA0B8;
 }
 .carouselContainerdesign   {
 }
->>>>>>> parent of fd9a6da (responsiveness change maybe)
 .container-prototype {
     background-color: #9F9D9E;
 }
-=======
->>>>>>> 28e33c578758f9d788e3290805664addf6dbbf6c
-
-
-
-
-
-
 
 @media (max-width: 1200px) {
 	.container-product img {
@@ -962,12 +951,6 @@ img.shoppingcart {
 .container-palette {
     background-color: #E6927A;
 }
-
-
-
-
-
-
 
 
 /*--- media queries ---*/
