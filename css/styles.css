@@ -6,7 +6,7 @@ html, body {
 	width: 100%;
 	overflow-x: hidden;
 	background: #6EA0B8;
-	 scroll-behavior: smooth;
+	scroll-behavior: smooth;
 }
 
 html {
@@ -94,6 +94,71 @@ img.missionImage {
 .backgroundmissionpage {
 	background-color: #F7F7F7
 	
+}
+
+/* Product Page */
+
+.card {
+    width: 444px;
+	margin-bottom: 50px;
+}
+
+.headerAboutProducts h1 {
+	text-align: center;
+	color: white;
+	font-family: 'Staatliches', cursive;
+	font-size: 60px;
+}
+
+i.fa.fa-apple {
+    font-size: 21px;
+    text-align: center;
+}
+
+.container-AboutProducts .col-md-4 {
+	padding: 25px;
+}
+
+.container-AboutProducts {
+	padding: 50px;
+}
+
+.headerProducts h1 {
+	text-align: center;
+	margin-top: 75px;
+	margin-bottom: 25px;
+	font-size: 80px;
+	color: white;
+	font-family: 'Staatliches', cursive;
+}
+
+.headerProducts h1:hover {
+color: #6EA0B8;
+}
+
+.container-product h4 {
+	color: #6ea0b8;
+}
+
+.container-product h6 {
+	font-size: 21px;
+}
+
+.container-product {
+	background: #e3b1b1;
+}
+
+
+@media (max-width: 1200px) {
+	.container-product img {
+    width: 200px;
+	
+	}
+}
+
+.container-product {
+    padding-bottom: 50px;
+	padding-top: 25px;
 }
 
 .socials img {
@@ -1008,6 +1073,11 @@ img.shoppingcart {
 	font-size: 80px !important;
 	}
 	
+	.container-product img {
+    width: 150px;
+
+}
+	
 	.values {
 	width: 100%;
 	}
@@ -1115,6 +1185,12 @@ img.shoppingcart {
 	.textEmail  {
 		display: block;
 	}
+	
+		.card {
+    width: 250px !important;
+    display: block;
+    margin: 0 auto;
+}
 	
 	.arrow {
     position: relative;
@@ -1239,6 +1315,7 @@ img.shoppingcart {
 	footer.page-footer {
 	text-align: left;
 	}
+	
 	
 	img#image1, img#image2, img#image3, img#image4 {
     width: 150px !important;
