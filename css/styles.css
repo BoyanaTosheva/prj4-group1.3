@@ -1374,12 +1374,11 @@ img.shoppingcart {
 }
 
 	
-	@media (max-width: 1300px) {
-		
-		p.comfortSeason {
-			left: -150px;
-		}
-		
+@media (max-width: 1300px) {
+
+	p.comfortSeason {
+		left: -150px;
+	}
 }
 	
 	@media (max-width: 400px) {
@@ -1711,7 +1710,12 @@ img.shoppingcart {
     font-style: italic;	
 }
 
-
+.container1 {
+  background-color: #f2f2f2;
+  padding: 20px 40px 25px 40px;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+}
 
 input[type=text] {
   width: 100%;
