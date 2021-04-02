@@ -953,6 +953,15 @@ img.shoppingcart {
 .container-palette {
     background-color: #E6927A;
 }
+.container-about-design {
+    background-color: #E3B1B2;
+}
+.container-wireframes {
+    background-color: #659692;
+}
+
+
+
 
 
 
@@ -967,6 +976,29 @@ img.shoppingcart {
 	img.picture1 {
 		width: 400px;
 	}
+.carouselContainerdesign {
+}
+.visual1 {
+    width: 600px;
+    height: 500px;
+}
+.container-flowdiagram {
+    background-color: #6EA0B7;
+}
+.container-font {
+}
+.container-palette-design {
+    background-color: #9F9D9E;
+}
+.container-prototype {
+    background-color: #ED593F;
+}
+
+
+
+
+
+
 	.description p {
 		font-size: 6rem;
 		margin-right: 0;
