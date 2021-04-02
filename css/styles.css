@@ -1546,6 +1546,12 @@ img.shoppingcart {
 			height: auto;
 	}
 	
+	.servicesss {
+  width: 70%;
+  margin: 0 auto;
+  display: block;
+  }
+	
 	.textEmail a {
     display: block;
 }
@@ -1593,7 +1599,7 @@ img.shoppingcart {
     text-align: center;
     color: white;
     font-size: 100px;
-     margin-top: 50px;
+    margin-top: 50px;
     margin-bottom: 25px;
 }
 
@@ -1780,7 +1786,7 @@ span.price {
 	}
 	
   .servicesss {
-  width: 70%;
+  width: 100%;
   margin: 0 auto;
   display: block;
   }
