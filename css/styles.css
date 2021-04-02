@@ -1627,16 +1627,16 @@ img.shoppingcart {
 }
 
 .who1{
-	    font-family: 'Staatliches', cursive;
+	font-family: 'Staatliches', cursive;
     text-align: center;
     color: white;
     font-size: 100px;
-    margin-top: 50px;
     margin-bottom: 25px;
 }
 
 .container-services{
 	background: #9f9d9e;
+	padding-top: 50px;
 	border-bottom: 2px solid #000000;
 }
 .servicesss{
