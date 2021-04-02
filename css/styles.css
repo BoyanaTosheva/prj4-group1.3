@@ -1105,6 +1105,14 @@ img.shoppingcart {
 	}
 }
 
+@media (max-width: 460px) {
+	footer.page-footer p {
+		width: 80%;
+		margin: 0 auto;
+		display: block;
+	}
+}
+
 
 @media (max-width: 991.98px) {
 	
@@ -1117,8 +1125,11 @@ img.shoppingcart {
 	
 	.container-product img {
     width: 150px;
-
-}
+	}
+	
+	#fontjegroot2 {
+    font-size: 100px;
+	}
 	
 	.values {
 	width: 100%;
@@ -1381,16 +1392,16 @@ img.shoppingcart {
 	margin-top: 50px;
 	}
 		
+	  .servicesss {
+	  width: 60%;
+	  }
+		
 	h1.headerproducts {
 		font-size: 60px !important;
 	}
 		
 	img#image1, img#image2, img#image3, img#image4 {
 		width: 250px !important;
-	}
-
-	.container.comfort {
-    padding: 25px 0px 350px 0px !important;
 	}
 		
 	p.comfortSeason {
@@ -1401,7 +1412,7 @@ img.shoppingcart {
 	img.missionImage {
     width: 200px !important;
 	}
-	
+
 }
 	
 		
@@ -1426,9 +1437,15 @@ img.shoppingcart {
     left: 0 !important;
 	}
 	
+	p.comfortSeason {
+    margin-bottom: 25px;
+    position: relative;
+    font-size: 5rem;
+}
+	
 	img.missionImage {
     width: 550px;
-}
+	}
 	
 	h1.headerproducts {
 		font-size: 75px;
@@ -1487,6 +1504,7 @@ img.shoppingcart {
 	
 	p.comfortSeason {
 	margin-bottom: 25px;
+	position: relative;
 	font-size: 5rem;
 	}
 	
@@ -1544,6 +1562,16 @@ img.shoppingcart {
 			height: auto;
 	}
 	
+	h1#fontjegroot2 {
+    text-align: center;
+}
+	
+	.servicesss {
+  width: 70%;
+  margin: 0 auto;
+  display: block;
+  }
+	
 	.textEmail a {
     display: block;
 }
@@ -1591,7 +1619,8 @@ img.shoppingcart {
     text-align: center;
     color: white;
     font-size: 100px;
-    margin-top: 42px;
+    margin-top: 50px;
+    margin-bottom: 25px;
 }
 
 .container-services{
@@ -1762,7 +1791,7 @@ span.price {
 }
 
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (and change the direction - make the "cart" column go on top) */
-@media (max-width: 800px) {
+/* @media (max-width: 800px) {
   .row {
     flex-direction: column-reverse;
   }
@@ -1770,12 +1799,18 @@ span.price {
     margin-bottom: 20px;
   }
 	
+	.container-services .col-md-4 {
+		display: block;
+		margin: 0 auto !important;
+		width: 100%;
+	}
+	
   .servicesss {
-  width: 70%;
+  width: 100%;
   margin: 0 auto;
   display: block;
   }
-}
+} /*
 
 .billing{
 		  font-family: 'Staatliches';
