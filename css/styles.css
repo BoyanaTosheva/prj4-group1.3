@@ -212,7 +212,8 @@ p.comfortSeason {
     left: -400px;
     position: absolute;
     text-align: center;
-	font-family: 'Staatliches', cursive;
+    font-family: 'Staatliches', cursive;
+    margin-left: 140px;
 }
 
 .container comfort {
@@ -1598,4 +1599,27 @@ img.shoppingcart {
 	color: black;
     text-align: left;	
 	text-decoration: underline;	
+}
+
+
+
+#offerswim{
+    width: 200px;
+    height: 200px;
+    align-content: center;
+    border-radius: 300px;
+
+}
+#offerswim1{
+	width: 200px;
+	height: 200px;
+	align-content: center;
+	border-radius: 300px;
+}
+
+#offerswim2{
+	width: 200px;
+	height: 200px;
+	align-content: center;
+	border-radius: 300px;
 }
