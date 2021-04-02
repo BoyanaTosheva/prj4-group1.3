@@ -1369,6 +1369,16 @@ img.shoppingcart {
 	margin-top: 50px;
 	}
 		
+	div#overlayProduct1 {
+    width: 250px !important;
+    height: 230px !important;
+}
+		
+	div#overlayProduct2 {
+	width: 250px !important;
+    height: 230px !important;
+}
+		
 	.overlayProduct {
 	width: 250px !important;
 	height: 240px !important;
@@ -1549,10 +1559,20 @@ img.shoppingcart {
 }
 
 @media (max-width: 768px) {
-		img#image1, img#image2, img#image3, img#image4  {
-			width: 300px;
-			height: auto;
+	img#image1, img#image2, img#image3, img#image4  {
+		width: 300px;
+		height: auto;
 	}
+	
+	div#overlayProduct1 {
+    width: 300px;
+    height: 275px;
+}
+	
+	div#overlayProduct2 {
+    width: 300px;
+    height: 275px;
+}
 	
 	h1#fontjegroot2 {
     text-align: center;
