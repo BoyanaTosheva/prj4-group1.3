@@ -150,16 +150,7 @@ color: #6EA0B8;
     background-image: url(url);
     background-color: #E3B1B2;
 }
-.container-wireframes .container {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    padding-top: 50px;
-    padding-right: 50px;
-    padding-bottom: 50px;
-    padding-left: 50px;
-    background-color: #43A8D4;
-}
+
 .container-wireframes {
     background-color: #43A8D4;
 }
@@ -191,10 +182,8 @@ color: #6EA0B8;
 	padding-top: 25px;
 	border-bottom: 2px solid black;
 }
-.col-md-12 .Test1 .visual1 {
-    width: 800px;
-    height: 600px;
-}
+
+
 
 
 .socials img {
@@ -954,12 +943,7 @@ img.shoppingcart {
 #demo-modal .btn:focus {
 	background-color: #12968d;
 }
-.col-md-12 .wireframesText .maintext {
-}
-.col-md-12 .wireframesText .maintext {
-    color: #FFFFFF;
-    text-align: center;
-}
+
 .container-about {
     background-color: #E3B1B2;
 }
