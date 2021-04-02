@@ -1406,6 +1406,11 @@ img.shoppingcart {
     width: 250px !important;
 	}
 	
+	img.review1, img.review2, img.review3 {
+    width: 250px !important;
+    height: 250px !important;
+}
+	
 }
 	
 @media (max-width: 575.98px) {
@@ -1417,7 +1422,6 @@ img.shoppingcart {
 	img.review1, img.review2, img.review3 {
     width: 300px;
     height: 300px;
-    border-radius: 200px;
 }
 	
 	p.comfortSeason {
