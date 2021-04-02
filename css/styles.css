@@ -1,5 +1,4 @@
 @charset "utf-8";
-
 html, body {
     padding: 0;
     margin: 0;
@@ -7,8 +6,6 @@ html, body {
     overflow-x: hidden;
     scroll-behavior: smooth;
     background-image: url(../images/SVG/Artboard%201-01.svg);
-    background-repeat: no-repeat;
-    background-size: auto auto;
 }
 
 html {
@@ -1785,4 +1782,5 @@ span.price {
 	color: black;
     text-align: left;	
 	text-decoration: underline;	
+}
 }
