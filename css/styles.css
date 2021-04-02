@@ -1644,6 +1644,8 @@ img.shoppingcart {
     height: 200px;
     align-content: center;
     border-radius: 300px;
+	display: block;
+    margin: 0 auto;
 
 }
 #offerswim1{
