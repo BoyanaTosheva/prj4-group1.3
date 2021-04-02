@@ -1770,6 +1770,12 @@ span.price {
     margin-bottom: 20px;
   }
 	
+	.container-services .col-md-4 {
+		display: block;
+		margin: 0 auto !important;
+		width: 100%;
+	}
+	
   .servicesss {
   width: 70%;
   margin: 0 auto;
