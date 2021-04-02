@@ -1624,3 +1624,21 @@ img.shoppingcart {
 	align-content: center;
 	border-radius: 300px;
 }
+
+
+.checkoutlarge{
+	 font-family: 'Staatliches';
+	font-size: 100px;
+    text-align: center;
+    padding-top: 19px;	
+	color: white;
+}
+
+.checkoutlarge:hover{
+	color: #6EA0B8;
+}
+
+#notwhite, #notwhite1, #notwhite2{
+    color: black;
+    font-style: italic;	
+}
