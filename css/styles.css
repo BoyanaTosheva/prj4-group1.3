@@ -1764,6 +1764,12 @@ span.price {
   .col-25 {
     margin-bottom: 20px;
   }
+	
+  .servicesss {
+  width: 70%;
+  margin: 0 auto;
+  display: block;
+  }
 }
 
 .billing{
