@@ -101,7 +101,8 @@ img.missionImage {
 .container-cards{
 	align-content: center;
 	margin-top: 25px;
-	background-color: #e3b1b2
+	background-color: #e3b1b2;
+	padding: inherit;
 }
 
 /* Product Page */
