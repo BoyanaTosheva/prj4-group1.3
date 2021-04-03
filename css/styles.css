@@ -22,7 +22,7 @@ body {
 }
 
 .container-AboutProducts .card.p-3.bg-white {
-    height: 700px;
+    height: 550px;
 	border-top-left-radius: 10%;
     border-top-right-radius: 10%;
 }
@@ -1240,6 +1240,14 @@ img.shoppingcart {
     padding: 50px;
 	}
 	
+	.container-AboutProducts img.benefit2 {
+    width: 300px !important;
+}
+	
+	.container-AboutProducts img.benefit4 {
+    width: 300px !important;
+}
+	
 	img.benefit1, img.benefit2, img.benefit3, img.benefit4 {
     width: auto !important;
     height: auto !important;
@@ -1587,6 +1595,13 @@ img.shoppingcart {
     height: 150px !important;
 }
 	
+	.container-AboutProducts img.benefit2 {
+    width: 150px !important;
+}
+	.container-AboutProducts img.benefit4 {
+    width: 150px !important;
+}
+	
 }
 
 @media (max-width: 450px) {
@@ -1754,6 +1769,11 @@ img.shoppingcart {
 		width: 300px;
 		height: auto;
 	}
+	
+	.container-product .text-center {
+    margin-bottom: 25px;
+    margin-top: 50px;
+}
 	
 	
 	.container-AboutProducts .card.p-3.bg-white {
@@ -2014,5 +2034,11 @@ img.shoppingcart {
 	img.benefit1, img.benefit2, img.benefit3, img.benefit4 {
 		width: 125px;
 		height: 125px;
+	}
+}
+
+@media (max-width: 410px) {
+.contactText h1 {
+    font-size: 40px;
 	}
 }
