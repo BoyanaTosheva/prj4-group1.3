@@ -1240,6 +1240,10 @@ img.shoppingcart {
     padding: 50px;
 	}
 	
+	form#contact-form {
+	padding: 50px 100px 75px 100px;
+	}
+	
 	.container-AboutProducts img.benefit2 {
     width: 300px !important;
 }
