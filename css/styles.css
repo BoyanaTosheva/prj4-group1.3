@@ -14,11 +14,13 @@ html {
 
 body {
   min-height: 100%;
+	
 }
 
 .footer {
   grid-row-start: 2;
   grid-row-end: 3;
+	
 }
 
 .container-AboutProducts .card.p-3.bg-white {
