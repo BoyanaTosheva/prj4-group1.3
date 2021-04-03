@@ -176,16 +176,17 @@ color: #6EA0B8;
 	border-bottom: 2px solid black;
 }
 
-
-
-
 .socials img {
     margin-right: 15px;
 	margin-top: 10px;
 }
 
 .mapText h1 {
-   margin: 75px 0px 50px 0px;
+   margin: 75px 0px 10px 0px;
+}
+
+.mapText p {
+    font-size: 18px;
 }
 
 .mapFrame {
@@ -1726,7 +1727,7 @@ img.shoppingcart {
 
 
 
-#offerswim{
+.offerswim{
     width: 200px;
     height: 200px;
     align-content: center;
@@ -1735,14 +1736,14 @@ img.shoppingcart {
     margin: 0 auto;
 
 }
-#offerswim1{
+.offerswim1{
 	width: 200px;
 	height: 200px;
 	align-content: center;
 	border-radius: 300px;
 }
 
-#offerswim2{
+.offerswim2{
 	width: 200px;
 	height: 200px;
 	align-content: center;
