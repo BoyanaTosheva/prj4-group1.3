@@ -33,6 +33,10 @@ body {
 	background: #e3b1b1;
 }
 
+.container-about-design {
+    padding: 50px;
+}
+
 img.email {
     width: 50px;
 }
@@ -942,7 +946,9 @@ img.shoppingcart {
 }
 .container-font {
     background-color: #669691;
+    padding: 50px 50px 0 50px;
 }
+
 .container-palette {
     background-color: #E6927A;
 }
@@ -953,8 +959,12 @@ img.shoppingcart {
 .container-wireframes {
     background-color: #659692;
     color: #FFFFFF;
+	padding: 50px;
 }
 
+.container-palette-design {
+    padding: 50px;
+}
 
 
 
@@ -988,11 +998,6 @@ img.shoppingcart {
     padding: 60px 0 30px;
     color: #FFFFFF;
 }
-
-
-
-
-
 
 	.description p {
 	font-size: 6rem;
@@ -1724,8 +1729,6 @@ img.shoppingcart {
     text-align: left;	
 	text-decoration: underline;	
 }
-
-
 
 .offerswim{
     width: 200px;
