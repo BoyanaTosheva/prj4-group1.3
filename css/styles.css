@@ -1609,6 +1609,12 @@ img.shoppingcart {
     width: 250px !important;
 	}
 	
+	.container-product .headerProducts h1 {
+    font-size: 50px;
+	margin-bottom: 0;
+	}
+
+	
 	.contactText h1 {
     font-size: 40px;
 }
