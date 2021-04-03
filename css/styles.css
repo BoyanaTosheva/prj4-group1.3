@@ -17,11 +17,6 @@ body {
 	
 }
 
-.footer {
-  grid-row-start: 2;
-  grid-row-end: 3;
-	
-}
 
 .container-AboutProducts .card.p-3.bg-white {
     height: 550px;
@@ -2075,9 +2070,13 @@ img.shoppingcart {
 .contactText h1 {
     font-size: 40px;
 	}
-		.visual1 {
-		width: 150px !important;
-		height: 150px !important;
+	.firstdraft {
+    font-size: 40px;
+}
+	
+	.visual1 {
+	width: 150px !important;
+	height: 150px !important;
 	}
 }
 
