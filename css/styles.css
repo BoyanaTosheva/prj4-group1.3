@@ -99,10 +99,10 @@ img.missionImage {
 }
 
 .container-cards{
-	align-content: center;
 	margin-top: 25px;
 	background-color: #e3b1b2;
 	padding: inherit;
+	border-bottom: 2px solid black;
 }
 
 /* Product Page */
@@ -1673,7 +1673,7 @@ img.shoppingcart {
     margin-top: 42px;
 }
 .missionheading:hover{
-	color: #e3b1b1;
+	color: #669691;
 	}
 
 .headerMission{
