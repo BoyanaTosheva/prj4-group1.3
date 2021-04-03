@@ -105,7 +105,7 @@ img.missionImage {
 	background-color: #e3b1b2;
 	padding: inherit;
 	border-bottom: 2px solid black;
-	padding: 50px;
+	padding: 50px 50px 75px 50px;
 }
 
 /* Product Page */
@@ -210,7 +210,8 @@ color: #6EA0B8;
 
 
 .contactText h1 {
-    margin-bottom: 50px;
+    margin-bottom: 25px;
+    font-size: 70px;
 }
 
 
@@ -262,6 +263,10 @@ footer.page-footer {
 
 .navbar-expand-lg .navbar-collapse {
     background: white;
+}
+
+.container-cards .mx-auto {
+	max-width: 100%;
 }
 
 
@@ -1270,6 +1275,14 @@ img.shoppingcart {
     width: 100% !important;
 	}
 	
+	.container-cards .card {
+    margin-bottom: 25px;
+}
+	
+	.checkoutlarge {
+    font-size: 70px !important;
+}
+	
 	.textEmail  {
 		display: block;
 	}
@@ -1478,6 +1491,14 @@ img.shoppingcart {
     width: 250px !important;
 	}
 	
+	.contactText h1 {
+    font-size: 40px;
+}
+	
+	.checkoutlarge {
+    font-size: 50px !important;
+}
+	
 	img.review1, img.review2, img.review3 {
     width: 250px !important;
     height: 250px !important;
@@ -1490,6 +1511,15 @@ img.shoppingcart {
 	p.paragraphvalues {
     left: 0 !important;
 	}
+	
+	h1.missionheading {
+		font-size: 70px;
+	}
+	
+	.contactText h1 {
+    font-size: 50px;
+}
+
 	
 	img.review1, img.review2, img.review3 {
     width: 300px;
@@ -1621,7 +1651,8 @@ img.shoppingcart {
 		width: 300px;
 		height: auto;
 	}
-	
+
+
 	div#overlayProduct1 {
     width: 300px;
     height: 275px;
@@ -1674,10 +1705,10 @@ img.shoppingcart {
     text-align: center;
     color: white;
     font-size: 100px;
-    margin-top: 42px;
+    margin-top: 50px;
 }
 .missionheading:hover{
-	color: #669691;
+	color: #6EA0B8;
 	}
 
 .headerMission{
