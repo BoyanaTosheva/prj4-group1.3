@@ -70,6 +70,10 @@ img.email {
 
 /* Mission Page */
 
+.card-body {
+	height: 300px;
+}
+
 .container-missionTop {
 	padding: 0px;
     background: #e3b1b2;
