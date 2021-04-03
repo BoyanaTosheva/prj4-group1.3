@@ -77,7 +77,6 @@ img.email {
 .container-missionTop {
 	padding: 0px;
     background: #e3b1b2;
-    border-bottom: 2px solid #000000;
 }
 
 .container-socialsContact {
@@ -103,12 +102,10 @@ img.missionImage {
 }
 
 .container-cards{
-	margin-top: 25px;
 	background-color: #e3b1b2;
 	padding: inherit;
 	border-bottom: 2px solid black;
 	padding: 50px;
-		
 }
 
 /* Product Page */
