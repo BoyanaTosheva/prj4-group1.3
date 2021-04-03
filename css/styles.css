@@ -29,12 +29,21 @@ body {
 	width: 50px;
 }
 
+.colorPaletteText h4 {
+    text-align: center;
+}
+
+.FlowChartText h4 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
 .container-contact {
 	background: #e3b1b1;
 }
 
 .container-about-design {
-    padding: 50px;
+    padding: 75px;
 }
 
 img.email {
@@ -70,10 +79,13 @@ img.email {
 
 /* Mission Page */
 
+.card-body {
+	height: 290px;
+}
+
 .container-missionTop {
 	padding: 0px;
     background: #e3b1b2;
-    border-bottom: 2px solid #000000;
 }
 
 .container-socialsContact {
@@ -99,9 +111,10 @@ img.missionImage {
 }
 
 .container-cards{
-	align-content: center;
-	margin-top: 25px;
-	background-color: #e3b1b2
+	background-color: #e3b1b2;
+	padding: inherit;
+	border-bottom: 2px solid black;
+	padding: 50px 50px 75px 50px;
 }
 
 /* Product Page */
@@ -129,6 +142,7 @@ i.fa.fa-apple {
 
 .container-AboutProducts {
 	padding: 75px;
+	background: #669691;
 }
 
 .headerProducts h1 {
@@ -205,7 +219,8 @@ color: #6EA0B8;
 
 
 .contactText h1 {
-    margin-bottom: 50px;
+    margin-bottom: 25px;
+    font-size: 70px;
 }
 
 
@@ -257,6 +272,10 @@ footer.page-footer {
 
 .navbar-expand-lg .navbar-collapse {
     background: white;
+}
+
+.container-cards .mx-auto {
+	max-width: 100%;
 }
 
 
@@ -961,15 +980,18 @@ img.shoppingcart {
 .container-about-design {
     background-color: #E3B1B2;
     color: #FFFFFF;
+	border-bottom: 2px solid black;
 }
 .container-wireframes {
     background-color: #659692;
     color: #FFFFFF;
 	padding: 50px;
+	border-bottom: 2px solid black;
 }
 
 .container-palette-design {
-    padding: 50px;
+    padding: 75px;
+	border-bottom: 2px solid black;
 }
 
 
@@ -989,11 +1011,13 @@ img.shoppingcart {
 }
 .container-flowdiagram {
     background-color: #6EA0B7;
-    padding: 60px 0 30px;
+    padding: 75px;
     color: #FFFFFF;
+	border-bottom: 2px solid black;
 }
 .container-font {
     color: #FFFFFF;
+	border-bottom: 2px solid black;
 }
 .container-palette-design {
     background-color: #9F9D9E;
@@ -1265,6 +1289,14 @@ img.shoppingcart {
     width: 100% !important;
 	}
 	
+	.container-cards .card {
+    margin-bottom: 25px;
+}
+	
+	.checkoutlarge {
+    font-size: 70px !important;
+}
+	
 	.textEmail  {
 		display: block;
 	}
@@ -1473,6 +1505,14 @@ img.shoppingcart {
     width: 250px !important;
 	}
 	
+	.contactText h1 {
+    font-size: 40px;
+}
+	
+	.checkoutlarge {
+    font-size: 50px !important;
+}
+	
 	img.review1, img.review2, img.review3 {
     width: 250px !important;
     height: 250px !important;
@@ -1485,6 +1525,15 @@ img.shoppingcart {
 	p.paragraphvalues {
     left: 0 !important;
 	}
+	
+	h1.missionheading {
+		font-size: 70px;
+	}
+	
+	.contactText h1 {
+    font-size: 50px;
+}
+
 	
 	img.review1, img.review2, img.review3 {
     width: 300px;
@@ -1617,6 +1666,11 @@ img.shoppingcart {
 		height: auto;
 	}
 	
+	.container-cards h6 {
+    font-size: 16px !important;
+}
+
+
 	div#overlayProduct1 {
     width: 300px;
     height: 275px;
@@ -1669,10 +1723,10 @@ img.shoppingcart {
     text-align: center;
     color: white;
     font-size: 100px;
-    margin-top: 42px;
+    margin-top: 50px;
 }
 .missionheading:hover{
-	color: #e3b1b1;
+	color: #6EA0B8;
 	}
 
 .headerMission{
@@ -1777,8 +1831,6 @@ img.shoppingcart {
     font-style: italic;	
 }
 
-
-
 .reviewtitle{
 		 font-family: 'Staatliches';
 	font-size: 55px;
@@ -1800,4 +1852,8 @@ img.shoppingcart {
 
 .lh-condensed { line-height: 1.25; }
 
-
+@media (max-width: 960px) {
+	.container-cards h6 {
+    font-size: 12px;
+}
+}
