@@ -21,8 +21,30 @@ body {
   grid-row-end: 3;
 }
 
+.container-AboutProducts .card.p-3.bg-white {
+    height: 700px;
+	border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+}
+
 img.benefit1, img.benefit2, img.benefit3, img.benefit4 {
 	width: 300px;
+	height: 275px;
+	border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+}
+
+.container-AboutProducts h1 {
+    margin-bottom: 100px;
+}
+
+.container-product h4 {
+    margin-top: 10px;
+}
+
+.container-AboutProducts h2.text-center {
+	text-align: center;
+	width: 100%;
 }
 
 .carouselContainer {
@@ -109,6 +131,10 @@ img.missionImage {
 	
 }
 
+.container-contact h1.text-center:hover {
+    color: #6EA0b8;
+}
+
 .backgroundmissionpage {
 	background-color: #669691;
 	
@@ -116,7 +142,6 @@ img.missionImage {
 
 .container-cards{
 	background-color: #e3b1b2;
-	padding: inherit;
 	border-bottom: 2px solid black;
 	padding: 50px 50px 75px 50px;
 }
@@ -126,6 +151,7 @@ img.missionImage {
 .card {
     width: 444px;
 	margin-bottom: 50px;
+	border-radius: 5%;
 }
 
 .headerAboutProducts h1 {
@@ -149,10 +175,21 @@ i.fa.fa-apple {
 	background: #669691;
 }
 
+.container-AboutProducts p {
+	color: black;
+	text-align: center;
+	width: 100%;
+	font-size: 20px;
+}
+
+.container-AboutProducts .card>hr {
+    margin-top:  25px;
+}
+
 .headerProducts h1 {
 	text-align: center;
-	margin-top: 75px;
-	margin-bottom: 25px;
+	margin-top: 50px;
+	margin-bottom: 50px;
 	font-size: 80px;
 	color: white;
 	font-family: 'Staatliches', cursive;
@@ -1203,6 +1240,15 @@ img.shoppingcart {
     padding: 50px;
 	}
 	
+	img.benefit1, img.benefit2, img.benefit3, img.benefit4 {
+    width: auto !important;
+    height: auto !important;
+}
+	
+	.container-AboutProducts .col-md-3 {
+    display: contents;
+}
+	
 	#fontjegroot {
 	font-size: 80px !important;
 }
@@ -1536,6 +1582,11 @@ img.shoppingcart {
 		font-size: 120px;
 	}
 	
+	img.benefit1, img.benefit2, img.benefit3, img.benefit4 {
+    width: 150px !important;
+    height: 150px !important;
+}
+	
 }
 
 @media (max-width: 450px) {
@@ -1703,6 +1754,13 @@ img.shoppingcart {
 		width: 300px;
 		height: auto;
 	}
+	
+	
+	.container-AboutProducts .card.p-3.bg-white {
+    width: 400px !important;
+	margin-bottom: 50px;
+}
+
 	
 	.container-cards h6 {
     font-size: 16px !important;
@@ -1922,4 +1980,39 @@ img.shoppingcart {
 .seconddraft:hover{
 	color:white;
 	text-decoration:underline;
+}
+
+@media (max-width: 1700px) {
+	img.benefit1, img.benefit2, img.benefit3, img.benefit4 {
+		width: 225px;
+		height: 200px;
+	}
+}
+
+@media (max-width: 1500px) {
+	img.benefit1, img.benefit2, img.benefit3, img.benefit4 {
+		width: 200px;
+		height: 200px;
+	}
+}
+
+@media (max-width: 1300px) {
+	img.benefit1, img.benefit2, img.benefit3, img.benefit4 {
+		width: 175px;
+		height: 175px;
+	}
+}
+
+@media (max-width: 1200px) {
+	img.benefit1, img.benefit2, img.benefit3, img.benefit4 {
+		width: 150px;
+		height: 150px;
+	}
+}
+
+@media (max-width: 1100px) {
+	img.benefit1, img.benefit2, img.benefit3, img.benefit4 {
+		width: 125px;
+		height: 125px;
+	}
 }
