@@ -273,8 +273,7 @@ ul.navbar-nav.mr-auto {
 }
 
 .container-palette {
-	padding: 75px;
-	background: #9f9d9e;
+    background: #9f9d9e;
 }
 
 .missionText h1 {
@@ -955,9 +954,11 @@ img.shoppingcart {
 }
 .container-about-design {
     background-color: #E3B1B2;
+    color: #FFFFFF;
 }
 .container-wireframes {
     background-color: #659692;
+    color: #FFFFFF;
 }
 
 
@@ -977,6 +978,7 @@ img.shoppingcart {
 		width: 400px;
 	}
 .carouselContainerdesign {
+    padding: 60px 0 30px;
 }
 .visual1 {
     width: 600px;
@@ -984,14 +986,20 @@ img.shoppingcart {
 }
 .container-flowdiagram {
     background-color: #6EA0B7;
+    padding: 60px 0 30px;
+    color: #FFFFFF;
 }
 .container-font {
+    color: #FFFFFF;
 }
 .container-palette-design {
     background-color: #9F9D9E;
+    color: #FFFFFF;
 }
 .container-prototype {
     background-color: #ED593F;
+    padding: 60px 0 30px;
+    color: #FFFFFF;
 }
 
 
