@@ -29,6 +29,15 @@ body {
 	width: 50px;
 }
 
+.colorPaletteText h4 {
+    text-align: center;
+}
+
+.FlowChartText h4 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
 .container-contact {
 	background: #e3b1b1;
 }
@@ -1651,6 +1660,10 @@ img.shoppingcart {
 		width: 300px;
 		height: auto;
 	}
+	
+	.container-cards h6 {
+    font-size: 16px !important;
+}
 
 
 	div#overlayProduct1 {
@@ -1813,8 +1826,6 @@ img.shoppingcart {
     font-style: italic;	
 }
 
-
-
 .reviewtitle{
 		 font-family: 'Staatliches';
 	font-size: 55px;
@@ -1836,4 +1847,8 @@ img.shoppingcart {
 
 .lh-condensed { line-height: 1.25; }
 
-
+@media (max-width: 960px) {
+	.container-cards h6 {
+    font-size: 12px;
+}
+}
