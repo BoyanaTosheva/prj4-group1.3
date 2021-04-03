@@ -14,6 +14,7 @@ html {
 
 body {
   min-height: 100%;
+	display: grid;
 }
 
 .footer {
@@ -57,6 +58,7 @@ img.benefit1, img.benefit2, img.benefit3, img.benefit4 {
 
 .colorPaletteText h4 {
     text-align: center;
+	margin-bottom: 25px;
 }
 
 .FlowChartText h4 {
@@ -84,6 +86,10 @@ img.email {
 .textEmail p {
     position: relative;
     left: 10px;
+}
+
+.container-font h4 {
+    text-align: center;
 }
 
 .textEmail {
@@ -1035,11 +1041,6 @@ img.shoppingcart {
 	border-bottom: 2px solid black;
 }
 
-
-
-/*--- media queries ---*/
-@media (max-width: 2200px) {
-
 	img.picture1 {
 	width: 400px;
 	}
@@ -1102,6 +1103,11 @@ img.shoppingcart {
     padding: 60px 0 30px;
     color: #FFFFFF;
 }
+
+
+/*--- media queries ---*/
+@media (max-width: 2200px) {
+
 
 
 	.description p {
@@ -1385,6 +1391,11 @@ img.shoppingcart {
     width: 100% !important;
 	}
 	
+	.visual1 {
+    width: 300px;
+    height: 300px;
+}
+	
 	.container-cards .card {
     margin-bottom: 25px;
 }
@@ -1544,6 +1555,10 @@ img.shoppingcart {
     font-size: 60px !important;
 }
 		
+	h1#fontjegroot1 {
+	font-size: 35px !important;
+	}
+		
 	img.picture1 {
 	width: 250px !important;
 	margin-top: 50px;
@@ -1611,6 +1626,10 @@ img.shoppingcart {
 @media (max-width: 450px) {
 	img.missionImage {
     width: 250px !important;
+	}
+	
+	h1#fontjegroot1 {
+		font-size: 40px;
 	}
 	
 	.container-product .headerProducts h1 {
@@ -1778,6 +1797,10 @@ img.shoppingcart {
 	img#image1, img#image2, img#image3, img#image4  {
 		width: 300px;
 		height: auto;
+	}
+	
+	.container-prototype h4 {
+		text-align: center;
 	}
 	
 	.container-product .text-center {
@@ -2051,4 +2074,19 @@ img.shoppingcart {
 .contactText h1 {
     font-size: 40px;
 	}
+		.visual1 {
+		width: 150px !important;
+		height: 150px !important;
+	}
+}
+
+@media (max-width: 550px) {
+	#fontjegroot1 {
+		font-size: 50px;
+	}
+	
+	.visual1 {
+    width: 200px;
+    height: 200px;
+}
 }
