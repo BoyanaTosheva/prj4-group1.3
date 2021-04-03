@@ -98,7 +98,9 @@ img.missionImage {
 	
 }
 
-.missioncards{
+.container-cards{
+	align-content: center;
+	margin-top: 25px;
 	
 }
 
