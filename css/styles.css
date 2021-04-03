@@ -1128,9 +1128,18 @@ img.shoppingcart {
 .container-palette {
     padding: 50px;
 	}
+	
 	#fontjegroot {
 	font-size: 80px !important;
-	}
+}
+	
+	#fontjegroot1 {
+    font-size: 70px;
+}
+	
+	p.text-boyana {
+    font-size: 21px;
+}
 	
 	.container-product img {
     width: 150px;
