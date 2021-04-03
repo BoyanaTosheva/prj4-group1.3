@@ -21,6 +21,10 @@ body {
   grid-row-end: 3;
 }
 
+img.benefit1, img.benefit2, img.benefit3, img.benefit4 {
+	width: 300px;
+}
+
 .carouselContainer {
 	background: #6EA0B8;
 }
