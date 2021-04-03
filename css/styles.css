@@ -1002,6 +1002,7 @@ img.shoppingcart {
 	img.picture1 {
 	width: 400px;
 	}
+
 	.carouselContainerdesign {
 		padding: 60px 0 30px;
 	}
@@ -1034,6 +1035,34 @@ img.shoppingcart {
 		color: #FFFFFF;
 	}
 
+.carouselContainerdesign {
+    padding: 60px 0 30px;
+}
+.visual1 {
+    width: 600px;
+    height: 500px;
+}
+.container-flowdiagram {
+    background-color: #6EA0B7;
+    padding: 75px;
+    color: #FFFFFF;
+	border-bottom: 2px solid black;
+}
+.container-font {
+    color: #FFFFFF;
+	border-bottom: 2px solid black;
+}
+.container-palette-design {
+    background-color: #9F9D9E;
+    color: #FFFFFF;
+}
+.container-prototype {
+    background-color: #E6927a;
+    padding: 60px 0 30px;
+    color: #FFFFFF;
+}
+
+
 	.description p {
 	font-size: 6rem;
 	margin-right: 0;
@@ -1043,7 +1072,7 @@ img.shoppingcart {
 	height: 1400px !important;
 	}
 	
-	
+
 }
 
 @media (max-width: 1152px) {
@@ -1861,4 +1890,32 @@ img.shoppingcart {
 	.container-cards h6 {
     font-size: 12px;
 }
+}
+
+.designparagraph{
+    text-align: center;
+    font-size: x-large;
+    padding-bottom: 25px;	
+}
+
+.designparagraphs2{
+    text-align: center;
+    padding-bottom: 25px;
+	
+}
+
+.firstdraft{
+	font-family: 'Staatliches';
+	font-size: 55px;
+	color: white;
+	text-align: center;
+}
+.seconddraft{
+		font-family: 'Staatliches';
+	font-size: 25px;
+	color: white;
+}
+.seconddraft:hover{
+	color:white;
+	text-decoration:underline;
 }
