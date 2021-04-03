@@ -980,15 +980,18 @@ img.shoppingcart {
 .container-about-design {
     background-color: #E3B1B2;
     color: #FFFFFF;
+	border-bottom: 2px solid black;
 }
 .container-wireframes {
     background-color: #659692;
     color: #FFFFFF;
 	padding: 50px;
+	border-bottom: 2px solid black;
 }
 
 .container-palette-design {
-    padding: 50px;
+    padding: 75px;
+	border-bottom: 2px solid black;
 }
 
 
@@ -1008,11 +1011,13 @@ img.shoppingcart {
 }
 .container-flowdiagram {
     background-color: #6EA0B7;
-    padding: 60px 0 30px;
+    padding: 75px;
     color: #FFFFFF;
+	border-bottom: 2px solid black;
 }
 .container-font {
     color: #FFFFFF;
+	border-bottom: 2px solid black;
 }
 .container-palette-design {
     background-color: #9F9D9E;
