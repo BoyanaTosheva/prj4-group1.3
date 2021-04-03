@@ -145,7 +145,7 @@ color: #6EA0B8;
 .container-product {
 	background: #e3b1b1;
 }
-<<<<<<< HEAD
+
 .container-about-design {
     background-image: url(url);
     background-color: #E3B1B2;
@@ -162,13 +162,6 @@ color: #6EA0B8;
 .container-prototype {
     background-color: #9F9D9E;
 }
-=======
->>>>>>>28e33c578758f9d788e3290805664addf6dbbf6c
-
-
-
-
-
 
 @media (max-width: 1200px) {
 	.container-product img {
@@ -183,16 +176,17 @@ color: #6EA0B8;
 	border-bottom: 2px solid black;
 }
 
-
-
-
 .socials img {
     margin-right: 15px;
 	margin-top: 10px;
 }
 
 .mapText h1 {
-   margin: 75px 0px 50px 0px;
+   margin: 75px 0px 10px 0px;
+}
+
+.mapText p {
+    font-size: 18px;
 }
 
 .mapFrame {
@@ -221,7 +215,7 @@ a.nav-link {
 }
 
 .container-about {
-	padding: 100px;
+	padding: 75px;
 	background: #9f9d9e;
 	border-bottom: 2px solid #000000;
 }
@@ -364,7 +358,7 @@ img.colorPalette {
 
 	.persons{
 	background-color: #669691;
-	margin-top: 11px;
+	margin-top: 10px;
 	text-align: center;
 	color: white;
 	}
@@ -964,18 +958,11 @@ img.shoppingcart {
 
 
 
-
-
-
-
-
-
-
 /*--- media queries ---*/
 @media (max-width: 2200px) {
 
 	img.picture1 {
-		width: 400px;
+	width: 400px;
 	}
 .carouselContainerdesign {
     padding: 60px 0 30px;
@@ -1008,8 +995,8 @@ img.shoppingcart {
 
 
 	.description p {
-		font-size: 6rem;
-		margin-right: 0;
+	font-size: 6rem;
+	margin-right: 0;
 	}
 	
 	.container-fluid {
@@ -1021,9 +1008,14 @@ img.shoppingcart {
 
 @media (max-width: 1152px) {
 	.values {
-		    width: 103%;
+	width: 103%;
 	}
+}
 
+@media (max-width: 510px) {
+	#fontjegroot2 {
+	font-size: 70px !important;
+	}
 }
 
 @media (max-width: 1100px) {
@@ -1137,9 +1129,18 @@ img.shoppingcart {
 .container-palette {
     padding: 50px;
 	}
+	
 	#fontjegroot {
 	font-size: 80px !important;
-	}
+}
+	
+	#fontjegroot1 {
+    font-size: 70px;
+}
+	
+	p.text-boyana {
+    font-size: 21px;
+}
 	
 	.container-product img {
     width: 150px;
@@ -1292,10 +1293,6 @@ img.shoppingcart {
 	margin-bottom: 25px;
 	}
 	
-	.persons {
-    margin: 25px !important;
-	}
-	
 	.headje {
 	padding: 0 !important;
 	}
@@ -1404,6 +1401,10 @@ img.shoppingcart {
 	
 	@media (max-width: 400px) {
 		
+	#fontjegroot2 {
+    font-size: 60px !important;
+}
+		
 	img.picture1 {
 	width: 250px !important;
 	margin-top: 50px;
@@ -1500,6 +1501,7 @@ img.shoppingcart {
 	#whowe1, #whowe2, #whowe3, #whowe4 {
     display: block;
     width: 100%;
+	margin-bottom: 25px;
 	}
 	
 	.persons {
@@ -1725,7 +1727,7 @@ img.shoppingcart {
 
 
 
-#offerswim{
+.offerswim{
     width: 200px;
     height: 200px;
     align-content: center;
@@ -1734,14 +1736,14 @@ img.shoppingcart {
     margin: 0 auto;
 
 }
-#offerswim1{
+.offerswim1{
 	width: 200px;
 	height: 200px;
 	align-content: center;
 	border-radius: 300px;
 }
 
-#offerswim2{
+.offerswim2{
 	width: 200px;
 	height: 200px;
 	align-content: center;
