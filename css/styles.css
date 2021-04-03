@@ -8,14 +8,19 @@ html, body {
     background-image: url(../images/SVG/banner-01.svg);
 }
 
-html {
+html,
+body {
   height: 100%;
 }
 
-body {
-  min-height: 100%;
-	
+#page-content {
+  flex: 1 0 auto;
 }
+
+#sticky-footer {
+  flex-shrink: none;
+}
+
 
 
 .container-AboutProducts .card.p-3.bg-white {
@@ -311,7 +316,10 @@ p.comfortSeason {
 footer.page-footer {
     color: black;
     border-top: 2px solid #000000;
+	position: relative;
 }
+
+
 
 .navbar-expand-lg .navbar-collapse {
     background: white;
