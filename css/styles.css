@@ -153,6 +153,13 @@ img.missionImage {
 	padding: 50px 50px 75px 50px;
 }
 
+.card-title2{
+		text-align: center;
+	color: black;
+	font-family: 'Staatliches';
+	font-size: 30px;
+}
+
 /* Product Page */
 
 .card {
