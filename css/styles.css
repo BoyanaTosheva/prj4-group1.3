@@ -21,6 +21,15 @@ body {
   flex-shrink: none;
 }
 
+.checkoutlarge2 {
+    font-family: 'Staatliches', cursive;
+    font-size: 100px;
+    text-align: center;
+    padding-top: 0;
+    color: white;
+    margin-bottom: 50px;
+}
+
 
 .secondcontainer {
     background: #e3b1b2;
@@ -209,11 +218,15 @@ i.fa.fa-apple {
     margin-top:  25px;
 }
 
+.container-about-design h1 {
+    margin-bottom: 25px;
+}
+
 .headerProducts h1 {
 	text-align: center;
 	margin-top: 50px;
 	margin-bottom: 50px;
-	font-size: 80px;
+	font-size: 100px;
 	color: white;
 	font-family: 'Staatliches', cursive;
 }
@@ -283,8 +296,8 @@ color: #6EA0B8;
 
 
 .contactText h1 {
-    margin-bottom: 25px;
-    font-size: 70px;
+    margin-bottom: 50px;
+    font-size: 100px;
 }
 
 
