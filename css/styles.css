@@ -22,6 +22,15 @@ body {
 }
 
 
+.secondcontainer {
+    background: #e3b1b2;
+	padding: 75px;
+}
+
+.checkoutcontainer {
+    background: #e3b1b2;
+}
+
 
 .container-AboutProducts .card.p-3.bg-white {
     height: 550px;
@@ -154,9 +163,9 @@ img.missionImage {
 }
 
 .card-title2{
-		text-align: center;
+	text-align: center;
 	color: black;
-	font-family: 'Staatliches';
+	font-family: 'Staatliches', cursive;
 	font-size: 30px;
 }
 
@@ -322,11 +331,15 @@ p.comfortSeason {
 
 footer.page-footer {
     color: black;
-    border-top: 2px solid #000000;
+	border-top: 2px solid black;
 	position: relative;
 }
 
-
+.container-mission2 {
+    padding: 75px;
+    border-bottom: 2px solid black;
+    background: #669691;
+}
 
 .navbar-expand-lg .navbar-collapse {
     background: white;
@@ -378,10 +391,9 @@ a.nav-link {
 
 .container-mission {
     padding: 75px;
+	border-bottom: 2px solid black;
     background: #669691;
-    border-bottom: 2px solid #000000;
 }
-
 
 
 .colorPaletteText p {
@@ -708,7 +720,7 @@ img.review3  {
 .textProduct {
   color: white;
   font-size: 20px;
-font-family: 'Staatliches';
+  font-family: 'Staatliches', cursive;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -726,7 +738,8 @@ font-family: 'Staatliches';
 
 footer.page-footer {
 	font-size: 1.5rem;
-	border-top: 2px solid black;
+	min-height: 62%;
+
 }
 
 .headerFooter h6 {
@@ -1256,6 +1269,10 @@ img.shoppingcart {
 .container-palette {
     padding: 50px;
 	}
+	
+	footer.page-footer {
+	min-height: 0!important;
+}
 	
 	form#contact-form {
 	padding: 25px 100px 75px 100px;
@@ -1914,7 +1931,7 @@ img.shoppingcart {
     text-align: center;
 }
 .service{
-    font-family: 'Staatliches';
+    font-family: 'Staatliches', cursive;
 	font-size: 45px;
     text-align: center;
     padding-top: 19px;	
@@ -1928,7 +1945,7 @@ img.shoppingcart {
 }
 
 .container-checkout{
-	    background-color: #e3b1b1;
+    background-color: #e3b1b1;
 
 }
 
@@ -1943,7 +1960,7 @@ img.shoppingcart {
 	
 }
 .productboughttitle{
-	  font-family: 'Staatliches';
+    font-family: 'Staatliches', cursive;
 	font-size: 25px;
 	color: black;
     text-align: left;	
@@ -1975,11 +1992,12 @@ img.shoppingcart {
 
 
 .checkoutlarge{
-	 font-family: 'Staatliches';
+	font-family: 'Staatliches', cursive;
 	font-size: 100px;
     text-align: center;
-    padding-top: 19px;	
+    padding-top: 75px;	
 	color: white;
+	margin-bottom: 50px;
 }
 
 .checkoutlarge:hover{
@@ -1992,7 +2010,7 @@ img.shoppingcart {
 }
 
 .reviewtitle{
-		 font-family: 'Staatliches';
+    font-family: 'Staatliches', cursive;
 	font-size: 55px;
 	color: white;	
 }
@@ -2031,13 +2049,13 @@ img.shoppingcart {
 }
 
 .firstdraft{
-	font-family: 'Staatliches';
+	font-family: 'Staatliches', cursive;
 	font-size: 55px;
 	color: white;
 	text-align: center;
 }
 .seconddraft{
-		font-family: 'Staatliches';
+    font-family: 'Staatliches', cursive;
 	font-size: 25px;
 	color: white;
 }
@@ -2100,8 +2118,23 @@ img.shoppingcart {
 		font-size: 50px;
 	}
 	
+	
 	.visual1 {
     width: 200px;
     height: 200px;
+	}
 }
+
+@media (max-width: 600px) {
+	.container .col-lg-12.p-5.bg-white.rounded.shadow-sm.mb-5 {
+	padding: 0 !important;
+	}
+	
+	.container .table td, .table th {
+    padding: .25rem;
+	}
+	
+	.container .text-uppercase {
+    font-size: 12px;
+	}
 }
