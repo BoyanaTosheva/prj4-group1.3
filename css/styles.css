@@ -1583,6 +1583,10 @@ img.shoppingcart {
     font-size: 60px !important;
 }
 		
+	p.comfortSeason {
+    font-size: 4rem !important;
+}
+		
 	h1#fontjegroot1 {
 	font-size: 35px !important;
 	}
@@ -2135,6 +2139,20 @@ img.shoppingcart {
 	}
 	
 	.container .text-uppercase {
-    font-size: 12px;
+	font-size: 28px;
+	}
+	
+	.container .py-2.text-uppercase {
+		font-size: 12px;
+	}
+	
+	.container .p-2.text-uppercase {
+		font-size: 12px;
+	}
+}
+
+@media (max-width: 375px) {
+.contactText h1 {
+    font-size: 30px;
 	}
 }
