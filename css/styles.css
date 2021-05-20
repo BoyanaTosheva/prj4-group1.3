@@ -42,7 +42,7 @@ body {
 
 
 .container-AboutProducts .card.p-3.bg-white {
-    height: 550px;
+    height: auto;
 	border-top-left-radius: 10%;
     border-top-right-radius: 10%;
 }
@@ -1278,6 +1278,15 @@ img.shoppingcart {
 
 @media (max-width: 991.98px) {
 	
+	img.benefit1, img.benefit2, img.benefit3, img.benefit4 {
+    width: 100px !important;
+    height: 100px !important;
+}
+	
+	.container-cards article {
+	font-size: 14px !important;
+}
+	
 .container-palette {
     padding: 50px;
 	}
@@ -1293,15 +1302,7 @@ img.shoppingcart {
 	.container-AboutProducts img.benefit2 {
     width: 300px !important;
 }
-	
-	.container-AboutProducts img.benefit4 {
-    width: 300px !important;
-}
-	
-	img.benefit1, img.benefit2, img.benefit3, img.benefit4 {
-    width: auto !important;
-    height: auto !important;
-}
+		
 	
 	.container-AboutProducts .col-md-3 {
     display: contents;
@@ -1577,6 +1578,7 @@ img.shoppingcart {
 	
 	img#image1, img#image2, img#image3, img#image4 {
     width: 150px !important;
+	height: 65% !important;
 }
 	
 }
@@ -1819,6 +1821,7 @@ img.shoppingcart {
 @media (max-width: 1500px) {
 		img#image1, img#image2, img#image3, img#image4  {
 		width: 250px;
+		height: 80%;
 	}
 	
 	.overlayProduct {
@@ -1828,19 +1831,19 @@ img.shoppingcart {
 
 @media (max-width: 1100px) {
 		img#image1, img#image2, img#image3, img#image4  {
-		height: 190px;
+		height: 75%;
 		width: 170px;
 	}
 	
 	.overlayProduct {
-    width: 170px;;
+    width: 170px;
 	}
 }
 
 @media (max-width: 768px) {
-	img#image1, img#image2, img#image3, img#image4  {
-		width: 300px;
-		height: auto;
+	img.benefit1, img.benefit2, img.benefit3, img.benefit4  {
+		width: 300px !important;
+		height: auto !important;
 	}
 	
 	.designparagraphs2 {
@@ -2172,4 +2175,78 @@ img.shoppingcart {
 .contactText h1 {
     font-size: 30px;
 	}
+}
+
+h3.homeSwimSuit1 {
+    text-align: center;
+    color: white;
+	margin-top: 25px;
+}
+
+h3.homeSwimSuit2 {
+    text-align: center;
+    color: white;
+	margin-top: 25px;
+}
+
+h3.homeSwimSuit3 {
+    text-align: center;
+    color: white;
+	margin-top: 25px;
+}
+
+.container-AboutProducts .d-flex.justify-content-center.container.mt-5 {
+    height: 100%;
+}
+
+.container-cards article {
+	font-size: 16px;
+}
+
+@media (max-width: 840px) {
+.container-cards article {
+	font-size: 12px !important;
+	}
+}
+
+@media (max-width: 768px) {
+.container-cards article {
+	font-size: 16px !important;
+	}
+}
+
+@media (max-width: 300px) {
+	.container-cards article {
+	font-size: 14px !important;
+}
+}
+
+@media (max-width: 265px) {
+	.container-cards article {
+	font-size: 12px !important;
+}
+}
+
+@media (max-width: 245px) {
+	.container-cards article {
+	font-size: 11px !important;
+}
+}
+
+@media (max-width: 540px) {
+	img.benefit1, img.benefit2, img.benefit3, img.benefit4 {
+	width: 200px !important;
+}
+}
+
+@media (max-width: 430px) {
+	img.benefit1, img.benefit2, img.benefit3, img.benefit4 {
+	width: 150px !important;
+}
+}
+
+@media (max-width: 380px) {
+	img.benefit1, img.benefit2, img.benefit3, img.benefit4 {
+	width: 100px !important;
+}
 }
